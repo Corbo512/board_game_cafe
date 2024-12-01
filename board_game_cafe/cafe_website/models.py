@@ -21,7 +21,7 @@ class Game(models.Model):
     min_players = models.IntegerField(default=0)
     max_players = models.IntegerField(default=0)
     description = models.TextField(default='')
-    author = models.ForeignKey(Author, on_delete=models.SET_NULL, null=True)
+    author = models.ManyToManyField(Author)
 
     def __str__(self):
         return self.name
