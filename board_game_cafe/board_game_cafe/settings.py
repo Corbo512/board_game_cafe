@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'board_game_cafe'
+    'cafe_website'
 ]
 
 MIDDLEWARE = [
