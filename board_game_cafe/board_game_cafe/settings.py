@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'board_game_cafe_db',
-        'USER': 'postgres',
+        'USER': 'bgc_admin',
         'PASSWORD': 'coderslab',
         'HOST': 'localhost',
         'PORT': '5432',
