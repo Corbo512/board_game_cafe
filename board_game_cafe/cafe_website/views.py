@@ -1,9 +1,14 @@
 from django.shortcuts import render
 from .models import Game
+from django.views import View
+from django.urls import reverse_lazy
 
-def home(request):
-    return render(request, 'home.html')
+class HomeView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'home.html')
 
-def games(request):
+
+class GameCollectionView(View):
     games = Game.objects.all()
-    return render(request, 'games.html', {'games': games})
+    def get(self, request, *args, **kwargs):
+        return render(request, 'games.html', {'games': self.games})

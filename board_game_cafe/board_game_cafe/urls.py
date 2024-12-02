@@ -16,10 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from cafe_website import views
+from cafe_website.views import HomeView, GameCollectionView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
-    path('games/', views.games, name='games'),
+    path('', HomeView.as_view(), name='home'),
+    path('games/', GameCollectionView.as_view(), name='games'),
 ]
