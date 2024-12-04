@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 
-{% block title %}Login{% endblock %}
+{% block title %}Registration{% endblock %}
 
 {% block content %}
-<h1>Loggin in? Great!</h1>
+<h1>Register here!</h1>
 <form method="post">
     {% csrf_token %}
     {{ form.as_p }}
-    <input type="submit" value="Sign in" name="Login User">
+    <input type="submit" value="Register" name="Register User">
 </form>
 {% endblock %}
