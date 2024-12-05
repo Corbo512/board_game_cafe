@@ -1,9 +1,10 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from .forms import UserLoginForm, UserRegisterForm
 from .models import Game, User
 from django.views import View
-from django.contrib.auth.hashers import make_password
+from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+
 
 class HomeView(View):
     def get(self, request, *args, **kwargs):
@@ -16,21 +17,13 @@ class GameCollectionView(View):
 
 class UserRegisterView(View):
     def get(self, request, *args, **kwargs):
-        form = UserRegisterForm
+        form = UserCreationForm()
         return render(request, 'register.html', {'form': form})
 
     def post(self, request, *args, **kwargs):
-        form = UserRegisterForm(request.POST)
+        form = UserCreationForm(request.POST)
         if form.is_valid():
-            user = User(
-                username=form.cleaned_data['username'],
-                first_name=form.cleaned_data['first_name'],
-                last_name=form.cleaned_data['last_name'],
-                email=form.cleaned_data['email'],
-                phone=form.cleaned_data['phone'],
-            )
-            user.password = make_password(form.cleaned_data['password'])
-            user.save()
+            form.save()
             return redirect('register_complete')
         return render(request, 'register.html', {'form': form})
 
@@ -40,18 +33,16 @@ class UserRegisterCompleteView(View):
 
 class UserLoginView(View):
     def get(self, request, *args, **kwargs):
-        form = UserLoginForm
+        form = AuthenticationForm()
         return render(request, 'login.html', {'form': form})
 
     def post(self, request, *args, **kwargs):
-        form = UserLoginForm(request.POST)
+        form = AuthenticationForm(request.POST)
         if form.is_valid():
-            username = form.cleaned_data['username']
-            password = form.cleaned_data['password']
-
-            user = authenticate(username=username, password=password)
-
-            if user is not None:
-                login(request, user)
-                return redirect('home')
+            return redirect('home')
         return render(request, 'login.html', {'form': form})
+
+class UserLogoutView(View):
+    def post(self, request, *args, **kwargs):
+        logout(request)
+        return redirect('home')

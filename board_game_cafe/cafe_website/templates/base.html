@@ -11,9 +11,14 @@
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href="/games/">Games</a></li>
-                <li><a href="/reservation/">Reservation</a></li>
-                <li><a href="/register/">Registration</a></li>
+                <li><a href="/admin/">Admin</a></li>
+                <li><a href="{% url 'games' %}">Games</a></li>
+                <li><a href="{% url 'login' %}">Login</a></li>
+                <li><a href="{% url 'register' %}">Registration</a></li>
+                <form method="post" action="{% url 'logout' %}">
+                    {% csrf_token %}
+                    <button>Logout</button>
+                </form>
             </ul>
         </nav>
     </header>
