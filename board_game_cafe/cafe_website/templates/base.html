@@ -15,6 +15,7 @@
                 <li><a href="{% url 'games' %}">Games</a></li>
                 <li><a href="{% url 'login' %}">Login</a></li>
                 <li><a href="{% url 'register' %}">Registration</a></li>
+                <li><a href="{% url 'games_reservation' %}">Reservation</a></li>
                 <form method="post" action="{% url 'logout' %}">
                     {% csrf_token %}
                     <button>Logout</button>

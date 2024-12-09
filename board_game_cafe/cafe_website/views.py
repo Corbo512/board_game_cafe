@@ -1,9 +1,15 @@
-from django.shortcuts import render, redirect
+from lib2to3.fixes.fix_input import context
+
+from django.shortcuts import render, redirect, get_object_or_404
+from django.urls import reverse_lazy
 from django.contrib.auth import authenticate, login, logout
-from .forms import UserLoginForm, UserRegisterForm
-from .models import Game, User
+from .forms import UserLoginForm, UserRegisterForm, ReservationForm
+from .models import Game, User, Reservation
 from django.views import View
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
+from django.views.generic.edit import CreateView
+from django.views.generic import ListView
+from django.contrib.auth.mixins import LoginRequiredMixin
 
 
 class HomeView(View):
@@ -46,3 +52,24 @@ class UserLogoutView(View):
     def post(self, request, *args, **kwargs):
         logout(request)
         return redirect('home')
+
+class ReservationCreateView(CreateView):
+    model = Reservation
+    template_name = 'reservation.html'
+    form_class = ReservationForm
+
+    def get_initial(self):
+        game_id = self.kwargs['game_id']
+        game = get_object_or_404(Game, id=game_id)
+        return {'game': game}
+
+    def get_context_data(self):
+        context = super().get_context_data()
+        game_id = self.kwargs['game_id']
+        context['game'] = get_object_or_404(Game, id=game_id)
+        return context
+
+class GameListView(ListView):
+    model = Game
+    template_name = 'games_for_reservation.html'
+    context_object_name = 'games'

@@ -1,5 +1,5 @@
 from django import forms
-from .models import User
+from .models import User, Reservation
 from django.contrib.auth import authenticate
 
 
@@ -11,7 +11,7 @@ class UserRegisterForm(forms.Form):
     )
     first_name = forms.CharField(
         required=True
-    )
+)
     last_name = forms.CharField(
         required=False,
         widget=forms.TextInput(attrs={'placeholder': '(optional)'}),
@@ -45,12 +45,8 @@ class UserRegisterForm(forms.Form):
         return cleaned_data
 
 class UserLoginForm(forms.Form):
-    username = forms.CharField(
-        max_length=50
-    )
-    password = forms.CharField(
-        widget=forms.PasswordInput
-    )
+    username = forms.CharField(max_length=50)
+    password = forms.CharField(widget=forms.PasswordInput)
 
     def clean(self):
         cleaned_data = super().clean()
@@ -65,3 +61,13 @@ class UserLoginForm(forms.Form):
         if user is None:
             raise forms.ValidationError("Wrong username or password")
         return cleaned_data
+
+class ReservationForm(forms.ModelForm):
+    class Meta:
+        model = Reservation
+        fields = ['game', 'table', 'date', 'start_time', 'end_time', 'notes']
+        widgets = {
+            'date': forms.DateInput(attrs={'type': 'date'}),
+            'start_time': forms.TimeInput(attrs={'type': 'time'}),
+            'end_time': forms.TimeInput(attrs={'type': 'time'}),
+        }
