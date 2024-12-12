@@ -75,3 +75,5 @@ class GameListView(ListView):
     model = Game
     template_name = 'games_for_reservation.html'
     context_object_name = 'games'
+    paginate_by = 12
+    ordering = ['name']

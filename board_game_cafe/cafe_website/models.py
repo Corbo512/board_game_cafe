@@ -32,7 +32,7 @@ class Table(models.Model):
     capacity = models.IntegerField(default=0)
 
     def __str__(self):
-        return f'No. {self.number}, max capacity: {self.capacity}'
+        return f'Table {self.number} | {self.capacity} seats'
 
 class Reservation(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
