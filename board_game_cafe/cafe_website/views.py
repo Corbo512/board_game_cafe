@@ -16,10 +16,12 @@ class HomeView(View):
     def get(self, request, *args, **kwargs):
         return render(request, 'home.html')
 
-class GameCollectionView(View):
-    games = Game.objects.all()
-    def get(self, request, *args, **kwargs):
-        return render(request, 'games.html', {'games': self.games})
+class GameCollectionView(ListView):
+    model = Game
+    template_name = 'games.html'
+    context_object_name = 'games'
+    paginate_by = 12
+    ordering = ['name']
 
 class UserRegisterView(View):
     def get(self, request, *args, **kwargs):
