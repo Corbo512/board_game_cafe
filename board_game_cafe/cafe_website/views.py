@@ -4,7 +4,7 @@ from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse_lazy
 from django.contrib.auth import authenticate, login, logout
 from .forms import UserLoginForm, UserRegisterForm, ReservationForm
-from .models import Game, User, Reservation
+from .models import Game, CustomUser, Reservation
 from django.views import View
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.views.generic.edit import CreateView
@@ -25,11 +25,11 @@ class GameCollectionView(ListView):
 
 class UserRegisterView(View):
     def get(self, request, *args, **kwargs):
-        form = UserCreationForm()
+        form = UserRegisterForm()
         return render(request, 'register.html', {'form': form})
 
     def post(self, request, *args, **kwargs):
-        form = UserCreationForm(request.POST)
+        form = UserRegisterForm(request.POST)
         if form.is_valid():
             form.save()
             return redirect('register_complete')
@@ -47,6 +47,8 @@ class UserLoginView(View):
     def post(self, request, *args, **kwargs):
         form = AuthenticationForm(request.POST)
         if form.is_valid():
+            user = form.get_user()
+            login(request, user)
             return redirect('home')
         return render(request, 'login.html', {'form': form})
 

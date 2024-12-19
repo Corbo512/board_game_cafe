@@ -1,14 +1,8 @@
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 
-class User(models.Model):
-    username = models.CharField(max_length=50)
-    first_name = models.CharField(max_length=255)
-    last_name = models.CharField(max_length=255)
-    email = models.EmailField(unique=True, max_length=255)
+class CustomUser(AbstractUser):
     phone = models.CharField(max_length=255, blank=True, default='')
-
-    def __str__(self):
-        return f'{self.first_name} {self.last_name}'
 
 class Author(models.Model):
     first_name = models.CharField(max_length=255)
@@ -35,7 +29,7 @@ class Table(models.Model):
         return f'Table {self.number} | {self.capacity} seats'
 
 class Reservation(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(CustomUser, on_delete=models.CASCADE)
     game = models.ForeignKey(Game, on_delete=models.SET_NULL, null=True)
     table = models.ForeignKey(Table, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
