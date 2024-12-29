@@ -1,4 +1,3 @@
-from django.db.models import Q
 from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse_lazy
 from django.contrib.auth import authenticate, login, logout
@@ -80,34 +79,30 @@ class ReservationCreateView(CreateView):
         form = self.form_class(request.POST)
         if form.is_valid():
             reservation = form.save(commit=False)
-
             existing_reservations = Reservation.objects.filter(
-                Q(game=reservation.game) | Q(table=reservation.table)
+                game=reservation.game,
+                start_time__date=reservation.start_time.date()
+            ).order_by('start_time') | Reservation.objects.filter(
+                table=reservation.table,
+                start_time__date=reservation.start_time.date()
             ).order_by('start_time')
 
             for conflict in existing_reservations:
-                has_conflict = (
-                        (reservation.start_time <= conflict.end_time) and
-                        (reservation.end_time >= conflict.start_time)
-                )
-
-                if has_conflict:
+                if reservation.start_time < conflict.end_time and reservation.end_time > conflict.start_time:
                     if conflict.game == reservation.game:
-                        form.add_error(None, f'{reservation.game} is already reserved from {conflict.start_time} to {conflict.end_time}')
+                        form.add_error(None,
+                                       f'{reservation.game} is already reserved from {conflict.start_time} to {conflict.end_time}')
                     if conflict.table == reservation.table:
-                        form.add_error(None, f'{reservation.table} is already reserved from {conflict.start_time} to {conflict.end_time}')
-                    return render(request, self.template_name, {
-                        'form': form,
-                        'game': reservation.game,
-                        'table': reservation.table
-                    })
+                        form.add_error(None,
+                                       f'Table {reservation.table} is already reserved from {conflict.start_time} to {conflict.end_time}')
+                    return render(request, self.template_name,
+                                  {'form': form, 'game': reservation.game, 'table': reservation.table})
 
             reservation.user = request.user
             reservation.save()
             return redirect('home')
-        else:
-            print("Errors: ", form.errors)
-            return render(request, self.template_name, {'form': form})
+        return render(request, self.template_name, {'form': form})
+
 
 class GameListView(ListView):
     model = Game
