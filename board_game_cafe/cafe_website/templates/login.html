@@ -12,6 +12,7 @@
         {{ error }}
         {% endfor %}
     {% endif %}
+    <input type="hidden" name="next" value="{{ request.GET.next }}">
     <input type="submit" value="Sign in" name="Login User">
 </form>
 {% endblock %}

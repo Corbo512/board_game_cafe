@@ -40,7 +40,7 @@ class UserRegisterCompleteView(View):
 class UserLoginView(View):
     def get(self, request, *args, **kwargs):
         form = UserLoginForm()
-        return render(request, 'login.html', {'form': form})
+        return render(request, 'login.html', {'form': form, 'next': request.GET.get('next', '/')})
 
     def post(self, request, *args, **kwargs):
         form = UserLoginForm(request.POST)
@@ -50,7 +50,8 @@ class UserLoginView(View):
             user = authenticate(username=username, password=password)
             if user:
                 login(request, user)
-                return redirect('home')
+                next_url = request.POST.get('next', 'home')
+                return redirect(next_url)
         return render(request, 'login.html', {'form': form})
 
 class UserLogoutView(View):
@@ -59,7 +60,7 @@ class UserLogoutView(View):
         return redirect('home')
 
 
-class ReservationCreateView(CreateView):
+class ReservationCreateView(LoginRequiredMixin, CreateView):
     model = Reservation
     template_name = 'reservation.html'
     form_class = ReservationForm
@@ -94,7 +95,7 @@ class ReservationCreateView(CreateView):
                                        f'{reservation.game} is already reserved from {conflict.start_time} to {conflict.end_time}')
                     if conflict.table == reservation.table:
                         form.add_error(None,
-                                       f'Table {reservation.table} is already reserved from {conflict.start_time} to {conflict.end_time}')
+                                       f'{reservation.table} is already reserved from {conflict.start_time} to {conflict.end_time}')
                     return render(request, self.template_name,
                                   {'form': form, 'game': reservation.game, 'table': reservation.table})
 
