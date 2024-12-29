@@ -73,6 +73,15 @@ class ReservationCreateView(CreateView):
         context['game'] = get_object_or_404(Game, id=game_id)
         return context
 
+    def post(self, request, *args, **kwargs):
+        form = ReservationForm(request.POST)
+        if form.is_valid():
+            reservation = form.save(commit=False)
+            reservation.user = request.user
+            form.save()
+            return redirect('home')
+        return render(request, 'home', {'form': form})
+
 class GameListView(ListView):
     model = Game
     template_name = 'games_for_reservation.html'

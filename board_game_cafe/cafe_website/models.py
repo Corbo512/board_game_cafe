@@ -34,10 +34,9 @@ class Reservation(models.Model):
     table = models.ForeignKey(Table, on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
-    start_time = models.TimeField()
-    end_time = models.TimeField()
-    date = models.DateField()
-    notes = models.TextField(default='')
+    start_time = models.DateTimeField(blank=True, null=True)
+    end_time = models.DateTimeField(blank=True, null=True)
+    notes = models.TextField(default='', blank=True)
 
     def __str__(self):
         return f'{self.user} - {self.game} - Table no. {self.table} - {self.start_time} - {self.end_time}'
