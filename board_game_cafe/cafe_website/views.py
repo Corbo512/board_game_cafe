@@ -41,15 +41,18 @@ class UserRegisterCompleteView(View):
 
 class UserLoginView(View):
     def get(self, request, *args, **kwargs):
-        form = AuthenticationForm()
+        form = UserLoginForm()
         return render(request, 'login.html', {'form': form})
 
     def post(self, request, *args, **kwargs):
-        form = AuthenticationForm(request.POST)
+        form = UserLoginForm(request.POST)
         if form.is_valid():
-            user = form.get_user()
-            login(request, user)
-            return redirect('home')
+            username = form.cleaned_data.get('username')
+            password = form.cleaned_data.get('password')
+            user = authenticate(username=username, password=password)
+            if user:
+                login(request, user)
+                return redirect('home')
         return render(request, 'login.html', {'form': form})
 
 class UserLogoutView(View):
