@@ -39,5 +39,5 @@ class Reservation(models.Model):
     notes = models.TextField(default='', blank=True)
 
     def __str__(self):
-        return f'{self.user} - {self.game} - Table no. {self.table} - {self.start_time} - {self.end_time}'
+        return f'{self.user} - {self.game} - {self.table} - {self.start_time} - {self.end_time}'
 

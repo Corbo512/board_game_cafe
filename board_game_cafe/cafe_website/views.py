@@ -77,13 +77,15 @@ class ReservationCreateView(CreateView):
         return context
 
     def post(self, request, *args, **kwargs):
-        form = ReservationForm(request.POST)
+        form = self.form_class(request.POST)
         if form.is_valid():
             reservation = form.save(commit=False)
             reservation.user = request.user
             form.save()
             return redirect('home')
-        return render(request, 'home', {'form': form})
+        else:
+            print("Errors: ", form.errors)
+            return render(request, self.template_name, {'form': form})
 
 class GameListView(ListView):
     model = Game
