@@ -15,8 +15,8 @@ class Game(models.Model):
     name = models.CharField(max_length=255)
     min_players = models.IntegerField(default=0)
     max_players = models.IntegerField(default=0)
-    description = models.TextField(default='')
-    author = models.ManyToManyField(Author)
+    description = models.TextField(default='', blank=True)
+    author = models.ManyToManyField(Author, blank=True)
 
     def __str__(self):
         return self.name
