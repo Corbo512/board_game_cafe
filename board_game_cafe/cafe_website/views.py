@@ -4,7 +4,7 @@ from .forms import UserLoginForm, UserRegisterForm, ReservationForm
 from .models import Game, Reservation
 from django.views import View
 from django.views.generic.edit import CreateView
-from django.views.generic import ListView
+from django.views.generic import ListView, DetailView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .utils import fetch_game_details
 
@@ -110,11 +110,21 @@ class GameListView(ListView):
     paginate_by = 12
     ordering = ['name']
 
-class GameDetailsView(View):
+class GameDetailsView(DetailView):
+    model = Game
     template_name = 'game_details.html'
     context_object_name = 'game'
 
-    def get(self, request, *args, **kwargs):
-        game_id = self.kwargs['pk']
-        game = fetch_game_details('games.xml', game_id)
-        return game
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        game_details = fetch_game_details('games.xml')
+        game_name = self.object.name
+
+        xml_game = ''
+        for game in game_details:
+            if game['title'] == game_name:
+                xml_game = game
+                break
+
+        context['xml_game'] = xml_game
+        return context

@@ -1,9 +1,13 @@
 import requests
+import os
 import xml.etree.ElementTree as ET
 
 
-def fetch_game_details(filename, game_id):
-    tree = ET.parse('games.xml')
+def fetch_game_details(filename):
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    file_path = os.path.join(base_dir, filename)
+
+    tree = ET.parse(file_path)
     root = tree.getroot()
 
     games = []
@@ -14,12 +18,14 @@ def fetch_game_details(filename, game_id):
         max_players = game.find("maxplayers").attrib['value']
         min_age = game.find("minage").attrib['value']
         description = game.find("description").text
+        thumbnail = game.find("thumbnail").text
 
         games.append({"title": title,
                   "min_players": min_players,
                   "max_players": max_players,
                   "min_age": min_age,
-                  "description": description
+                  "description": description,
+                  "thumbnail": thumbnail
                   })
 
     return games
