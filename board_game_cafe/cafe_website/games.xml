@@ -1,0 +1,6689 @@
+<?xml version="1.0" encoding="utf-8"?><items termsofuse="https://boardgamegeek.com/xmlapi/termsofuse"><item type="boardgame" id="199792">
+         <thumbnail>https://cf.geekdo-images.com/fjE7V5LNq31yVEW_yuqI-Q__thumb/img/Cf_mYxR_VvdjTEPXseSurni2JNI=/fit-in/200x150/filters:strip_icc()/pic3918905.png</thumbnail>
+      <image>https://cf.geekdo-images.com/fjE7V5LNq31yVEW_yuqI-Q__original/img/HQ1ti16wT9lqja5_h3gUfHUIcVI=/0x0/filters:format(png)/pic3918905.png</image>
+                                     				
+				<name type="primary" sortindex="1" value="Everdell" />
+			
+						                               				
+				<name type="alternate" sortindex="1" value="Divukraj" />
+			    				
+				<name type="alternate" sortindex="1" value="Everdel" />
+			    				
+				<name type="alternate" sortindex="1" value="Everdell, H Εύφορη Κοιλάδα" />
+			    				
+				<name type="alternate" sortindex="1" value="Everdell: Az Örökfa Árnyékában" />
+			    				
+				<name type="alternate" sortindex="1" value="Everdell: Essentials Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Valea de Smarald" />
+			    				
+				<name type="alternate" sortindex="1" value="Евердел" />
+			    				
+				<name type="alternate" sortindex="1" value="Евърдел" />
+			    				
+				<name type="alternate" sortindex="1" value="Эверделл" />
+			    				
+				<name type="alternate" sortindex="1" value="ดินแดนแห่งมนต์เสน่ห์" />
+			    				
+				<name type="alternate" sortindex="1" value="エバーデール" />
+			    				
+				<name type="alternate" sortindex="1" value="仙境幽谷" />
+			    				
+				<name type="alternate" sortindex="1" value="에버델" />
+			
+						               													<description>Within the charming valley of Everdell, beneath the boughs of towering trees, among meandering streams and mossy hollows, a civilization of forest critters is thriving and expanding. From Everfrost to Bellsong, many a year have come and gone, but the time has come for new territories to be settled and new cities established. You will be the leader of a group of critters intent on just such a task. There are buildings to construct, lively characters to meet, events to host&amp;mdash;you have a busy year ahead of yourself. Will the sun shine brightest on your city before the winter moon rises?&amp;#10;&amp;#10;Everdell is a game of dynamic tableau building and worker placement.&amp;#10;&amp;#10;On their turn a player can take one of three actions:&amp;#10;&amp;#10;a) Place a Worker: Each player has a collection of Worker pieces. These are placed on the board locations, events, and on Destination cards. Workers perform various actions to further the development of a player's tableau: gathering resources, drawing cards, and taking other special actions.&amp;#10;&amp;#10;b) Play a Card: Each player is building and populating a city; a tableau of up to 15 Construction and Critter cards. There are five types of cards: Travelers, Production, Destination, Governance, and Prosperity. Cards generate resources (twigs, resin, pebbles, and berries), grant abilities, and ultimately score points. The interactions of the cards reveal numerous strategies and a near infinite variety of working cities.&amp;#10;&amp;#10;c) Prepare for the next Season: Workers are returned to the players supply and new workers are added. The game is played from Winter through to the onset of the following winter, at which point the player with the city with the most points wins.&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2018" />
+						               				<minplayers value="1" />
+						               				<maxplayers value="4" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="986">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="20" />
+					<result value="Recommended" numvotes="350" />
+					<result value="Not Recommended" numvotes="195" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="284" />
+					<result value="Recommended" numvotes="526" />
+					<result value="Not Recommended" numvotes="51" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="511" />
+					<result value="Recommended" numvotes="283" />
+					<result value="Not Recommended" numvotes="13" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="165" />
+					<result value="Recommended" numvotes="438" />
+					<result value="Not Recommended" numvotes="144" />
+				</results>					
+			
+		<results numplayers="4+">		
+					<result value="Best" numvotes="1" />
+					<result value="Recommended" numvotes="17" />
+					<result value="Not Recommended" numvotes="448" />
+				</results>					
+	</poll>
+<poll-summary name="suggested_numplayers"  title="User Suggested Number of Players">
+  <result name="bestwith" value="Best with 3 players" />
+  <result name="recommmendedwith" value="Recommended with 1–4 players" />
+</poll-summary> 			               				<playingtime value="80" />
+						               				<minplaytime value="40" />
+						               				<maxplaytime value="80" />
+						               				<minage value="10" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="228">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="2" />
+					<result value="6" numvotes="2" />
+					<result value="8" numvotes="46" />
+					<result value="10" numvotes="75" />
+					<result value="12" numvotes="84" />
+					<result value="14" numvotes="19" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="45">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="0" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="9" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="35" />
+					<result level="5" value="Unplayable in another language" numvotes="1" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1089" value="Animals" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1002" value="Card Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1029" value="City Building" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1010" value="Fantasy" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2912" value="Contracts" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2875" value="End Game Bonuses" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2040" value="Hand Management" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2902" value="Income" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2041" value="Open Drafting" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2911" value="Ownership" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2004" value="Set Collection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2819" value="Solo / Solitaire Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2897" value="Variable Set-up" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2082" value="Worker Placement" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="18983" value="Animals: Badgers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="19070" value="Animals: Bats" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="45672" value="Animals: Birds" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7544" value="Animals: Foxes" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7760" value="Animals: Hedgehogs / Porcupines" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="21462" value="Animals: Lizards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7269" value="Animals: Mice" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7835" value="Animals: Moles" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="18588" value="Animals: Owls" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="17168" value="Animals: Skunks" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7668" value="Animals: Squirrels" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7366" value="Animals: Turtles" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="77906" value="Category: Dized Tutorial" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5607" value="Components: 3-Dimensional (3D)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="64990" value="Components: Meeples (Animal) / Animeeples" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="68769" value="Components: Wooden pieces &amp; boards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="8374" value="Crowdfunding: Kickstarter" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78432" value="Digital Implementations: Google Play" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="77349" value="Digital Implementations: Steam" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="73596" value="Digital Implementations: TableTop Simulator Mod (TTS)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="70948" value="Digital Implementations: Tabletopia" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="57493" value="Game: Everdell" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="27646" value="Mechanism: Tableau Building" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="59705" value="Misc: LongPack Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78198" value="Misc: Watch It Played How To Videos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="65774" value="Theme: Anthropomorphic Animals" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="48871" value="Theme: Nature" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="57181" value="Theme: Trees and Forests" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="289057" value="Everdell: Bellfaire" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="297973" value="Everdell: Extra! Extra!" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="289405" value="Everdell: Glimmergold Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="382190" value="Everdell: Kindergarten Promo Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="297972" value="Everdell: Legends" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="332397" value="Everdell: Mistwood" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="332390" value="Everdell: Newleaf" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="259996" value="Everdell: Pearlbrook" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="319420" value="Everdell: Pearlbrook – Collector&#039;s Edition" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="292794" value="Everdell: Pearlbrook – Freshwater Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="261142" value="Everdell: Rugwort Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="289056" value="Everdell: Spirecrest" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="319419" value="Everdell: Spirecrest – Collector&#039;s Edition" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="334946" value="Everdell: Spirecrest – Trailblazers Pack" />
+		
+									
+			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="357969" value="Everdell: 3 Minute Library Promo Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="359324" value="Everdell: Berlin Brettspiel Con Promo Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="332119" value="Everdell: BGInserts Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="336655" value="Everdell: Big Ol&#039; Box of Storage" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="367828" value="Everdell: Card Sleeve Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="336653" value="Everdell: Click Clack&#039;s Upgrade Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="432111" value="Everdell: Core Oversized Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="357725" value="Everdell: Court of Approval Alternate Art Promo Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="296433" value="Everdell: Deluxe Occupied Tokens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="333825" value="Everdell: Deluxe Resource Vessels" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="309259" value="Everdell: Dice Tower Alternate Art Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="309496" value="Everdell: e-Raptor Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="432924" value="Everdell: Essentials Edition – Upgrade Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="391158" value="Everdell: Eurohell 3D golden occupied Tokens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="391159" value="Everdell: Eurohell 3D open/closed signs" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="391160" value="Everdell: Eurohell 3D spiderwebs" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="391156" value="Everdell: Eurohell 3D-Token Point-Markers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="391157" value="Everdell: Eurohell occupied Tokens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="271285" value="Everdell: Ever Tree" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="348633" value="Everdell: Everdell &amp; Spirecrest GiftForge Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="353226" value="Everdell: Everdell for Everyone" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="432113" value="Everdell: Expansions Oversized Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="347397" value="Everdell: Expo Hall" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="312895" value="Everdell: Folded Space Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="348594" value="Everdell: Game Boy Geek" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="352844" value="Everdell: House of Peace Promo Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="378870" value="Everdell: Internationale Spieltage SPIEL Promo Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306518" value="Everdell: LaserLand Event Card Holders" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306519" value="Everdell: Laserland Walnut Resource Holders" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="353225" value="Everdell: Lincoln and Nikki Alternate Art Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="330418" value="Everdell: Man vs Meeple Alternate Art Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="433888" value="Everdell: Man vs Meeple Alternate Art Mine Promo Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="271839" value="Everdell: Metal Token Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="434245" value="Everdell: Moedas &amp; Co. Metal Coins" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="425006" value="Everdell: Oversized Cards for Collector&#039;s Edition" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="435724" value="Everdell: PolandGames Box" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="435721" value="Everdell: PolandGames Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="370718" value="Everdell: Tantrum House Promo Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="348549" value="Everdell: The GiftForge Base Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="385699" value="Everdell: The GiftForge Open sign" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="385706" value="Everdell: The GiftForge Season board with small Ever Tree" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="385707" value="Everdell: The GiftForge Special event card holder" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="325823" value="Everdell: The Wanderer&#039;s Guide Alternate Art Promo Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365825" value="Everdell: Tower Rex Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="271840" value="Everdell: Wooden Twigs" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamecompilation" id="319422" value="Everdell: Collector&#039;s Edition" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="425005" value="Everdell Duo" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="394106" value="Everdell Farshore" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="375852" value="Welcome to Everdell" />
+		
+									
+			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="91302" value="James A. Wilson" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="40597" value="Andrew Bosley" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="63969" value="Cody Jones" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="23943" value="Dann May" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="38298" value="Starling Games (II)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="42875" value="Abraxas" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3475" value="Arclight Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="21608" value="CMON Global Limited" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="22560" value="Fantasmagoria" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="15605" value="Galápagos Jogos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="47851" value="Gameology (Gameology Romania)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8820" value="Gém Klub Kft." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="18852" value="Hobby World" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="6214" value="Kaissa Chess &amp; Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="30677" value="Maldito Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="5400" value="Matagot" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="51614" value="MIPL" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="39" value="Pegasus Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="7466" value="Rebel Sp. z o.o." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="21053" value="REXhry" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="44204" value="Spilbræt.dk" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="51375" value="Tabletop Tycoon Inc." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4932" value="White Goblin Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8147" value="YOKA Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="44209" value="Ігромаг" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgame" id="68448">
+         <thumbnail>https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__thumb/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="7 Wonders" />
+			
+						                               				
+				<name type="alternate" sortindex="1" value="7 csoda" />
+			    				
+				<name type="alternate" sortindex="1" value="7 Cudów Świata" />
+			    				
+				<name type="alternate" sortindex="1" value="7 divů světa" />
+			    				
+				<name type="alternate" sortindex="1" value="7 чудес" />
+			    				
+				<name type="alternate" sortindex="1" value="7 สิ่งมหัศจรรย์" />
+			    				
+				<name type="alternate" sortindex="1" value="7 원더스" />
+			    				
+				<name type="alternate" sortindex="1" value="Τα 7 θαύματα του κόσμου" />
+			    				
+				<name type="alternate" sortindex="1" value="七大奇蹟" />
+			    				
+				<name type="alternate" sortindex="1" value="七大奇迹" />
+			    				
+				<name type="alternate" sortindex="1" value="世界の七不思議" />
+			
+						               													<description>You are the leader of one of the 7 great cities of the Ancient World. Gather resources, develop commercial routes, and affirm your military supremacy. Build your city and erect an architectural wonder which will transcend future times.&amp;#10;&amp;#10;7 Wonders lasts three ages. In each age, players receive seven cards from a particular deck, choose one of those cards, then pass the remainder to an adjacent player. Players reveal their cards simultaneously, paying resources if needed or collecting resources or interacting with other players in various ways. (Players have individual boards with special powers on which to organize their cards, and the boards are double-sided). Each player then chooses another card from the deck they were passed, and the process repeats until players have six cards in play from that age. After three ages, the game ends.&amp;#10;&amp;#10;In essence, 7 Wonders is a card development game. Some cards have immediate effects, while others provide bonuses or upgrades later in the game. Some cards provide discounts on future purchases. Some provide military strength to overpower your neighbors and others give nothing but victory points. Each card is played immediately after being drafted, so you'll know which cards your neighbor is receiving and how her choices might affect what you've already built up. Cards are passed left-right-left over the three ages, so you need to keep an eye on the neighbors in both directions.&amp;#10;&amp;#10;Though the box of earlier editions is listed as being for 3&amp;ndash;7 players, there is an official 2-player variant included in the instructions.&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2010" />
+						               				<minplayers value="2" />
+						               				<maxplayers value="7" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="2480">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="4" />
+					<result value="Recommended" numvotes="17" />
+					<result value="Not Recommended" numvotes="1523" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="117" />
+					<result value="Recommended" numvotes="396" />
+					<result value="Not Recommended" numvotes="1325" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="522" />
+					<result value="Recommended" numvotes="1307" />
+					<result value="Not Recommended" numvotes="236" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="1319" />
+					<result value="Recommended" numvotes="825" />
+					<result value="Not Recommended" numvotes="47" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="1187" />
+					<result value="Recommended" numvotes="881" />
+					<result value="Not Recommended" numvotes="62" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="531" />
+					<result value="Recommended" numvotes="1261" />
+					<result value="Not Recommended" numvotes="182" />
+				</results>					
+			
+		<results numplayers="7">		
+					<result value="Best" numvotes="441" />
+					<result value="Recommended" numvotes="1176" />
+					<result value="Not Recommended" numvotes="323" />
+				</results>					
+			
+		<results numplayers="7+">		
+					<result value="Best" numvotes="31" />
+					<result value="Recommended" numvotes="111" />
+					<result value="Not Recommended" numvotes="1034" />
+				</results>					
+	</poll>
+<poll-summary name="suggested_numplayers"  title="User Suggested Number of Players">
+  <result name="bestwith" value="Best with 4–5 players" />
+  <result name="recommmendedwith" value="Recommended with 3–7 players" />
+</poll-summary> 			               				<playingtime value="30" />
+						               				<minplaytime value="30" />
+						               				<maxplaytime value="30" />
+						               				<minage value="10" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="555">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="1" />
+					<result value="5" numvotes="1" />
+					<result value="6" numvotes="22" />
+					<result value="8" numvotes="154" />
+					<result value="10" numvotes="226" />
+					<result value="12" numvotes="124" />
+					<result value="14" numvotes="23" />
+					<result value="16" numvotes="3" />
+					<result value="18" numvotes="1" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="404">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="310" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="89" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="4" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="1" />
+					<result level="5" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1050" value="Ancient" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1002" value="Card Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1029" value="City Building" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1015" value="Civilization" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1021" value="Economic" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2984" value="Closed Drafting" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2040" value="Hand Management" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="3104" value="Neighbor Scope" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2004" value="Set Collection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2020" value="Simultaneous Action Selection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2015" value="Variable Player Powers" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="27524" value="Ancient: Babylon" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="72535" value="Ancient: Egypt" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="52373" value="Ancient: Greece" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="77906" value="Category: Dized Tutorial" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="77012" value="Constructions: Pyramids" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="70360" value="Digital Implementations: Board Game Arena" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="76458" value="Digital Implementations: BrettspielWelt" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78432" value="Digital Implementations: Google Play" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="17552" value="Game: 7 Wonders" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="71181" value="Mechanism: Artificial Player" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="27646" value="Mechanism: Tableau Building" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="105030" value="Misc: Dice Tower Hall of Fame" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78198" value="Misc: Watch It Played How To Videos" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="247315" value="7 Wonders: Armada" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="262276" value="7 Wonders: Armada – Siracusa" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="154638" value="7 Wonders: Babel" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="110308" value="7 Wonders: Catan" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="111661" value="7 Wonders: Cities" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="231168" value="7 Wonders: Cities Anniversary Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="368780" value="7 Wonders: Companion App" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="378839" value="7 Wonders: Edifice" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="92539" value="7 Wonders: Leaders" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="130236" value="7 Wonders: Leaders – Esteban" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="127838" value="7 Wonders: Leaders – Louis" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="166329" value="7 Wonders: Leaders – Nimrod" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="99315" value="7 Wonders: Leaders – Stevie" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="156119" value="7 Wonders: Leaders – Wil" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="231167" value="7 Wonders: Leaders Anniversary Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="83445" value="7 Wonders: Manneken Pis" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="133993" value="7 Wonders: Wonder Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="164649" value="Collection (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="140098" value="Empires (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="138187" value="Game Wonders (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="134849" value="Lost Wonders (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="329310" value="Modern Wonders (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="131947" value="More Wonders... (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="132146" value="Myths (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="164648" value="Ruins (fan expansion for 7 Wonders)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="164647" value="Sailors (fan expansion for 7 Wonders)" />
+		
+									
+			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="339391" value="7 Wonders: Eurohell Design Coin-Sleeves" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="173357" value="7 Wonders: Art Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="270431" value="7 Wonders: Broken Token Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="344432" value="7 Wonders: CN Tower Alternate Art Promo Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="309365" value="7 Wonders: e-Raptor Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="266242" value="7 Wonders: Folded Space Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="272080" value="7 Wonders: GameGuard Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="228574" value="7 Wonders: Gaming Trunk Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="329170" value="7 Wonders: Geekmod Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="272020" value="7 Wonders: Go7 Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="326745" value="7 Wonders: Laserox Wooden Wonder Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="271277" value="7 Wonders: Leaders – Linus Alternate Art Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="364784" value="7 Wonders: Leaders – Moedas &amp; Co. Metal Coins" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="231231" value="7 Wonders: Leaders – Phryne Alternate Art Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="196929" value="7 Wonders: Metal Coins" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="364783" value="7 Wonders: Moedas &amp; Co. Metal Coins" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="199216" value="7 Wonders: Palace Alternate Art Promo Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="158795" value="7 Wonders: Playmat" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="188869" value="7 Wonders: Repos Production Playmat" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="378753" value="7 Wonders: Spielmaterial.de Upgrade" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="271273" value="7 Wonders: The Game Doctors Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="348557" value="7 Wonders: The GiftForge Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="271750" value="7 Wonders: Tower Rex Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="270441" value="7 Wonders: Wondrous Organizer – Extra Dividers" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="316377" value="7 Wonders (Second Edition)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="173346" value="7 Wonders Duel" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="346703" value="7 Wonders: Architects" />
+		
+									
+			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="9714" value="Antoine Bauza" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="62528" value="Dimitri Chappuis" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="12016" value="Miguel Coimbra" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="100254" value="Etienne Hebinger" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="89045" value="Cyril Nouvel" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4384" value="Repos Production" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="23043" value="ADC Blackfire Entertainment" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="15889" value="Asterion Press" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="15605" value="Galápagos Jogos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8820" value="Gém Klub Kft." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="1391" value="Hobby Japan" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="6214" value="Kaissa Chess &amp; Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3218" value="Lautapelit.fi" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="9325" value="Lifestyle Boardgames Ltd" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="32395" value="NeoTroy Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="7466" value="Rebel Sp. z o.o." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="33998" value="Siam Board Games" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgame" id="174430">
+         <thumbnail>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__thumb/img/veqFeP4d_3zNhFc3GNBkV95rBEQ=/fit-in/200x150/filters:strip_icc()/pic2437871.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/sZYp_3BTDGjh2unaZfZmuA__original/img/7d-lj5Gd1e8PFnD97LYFah2c45M=/0x0/filters:format(jpeg)/pic2437871.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Gloomhaven" />
+			
+						                               				
+				<name type="alternate" sortindex="1" value="Gloomhaven, aventures à Havrenuit" />
+			    				
+				<name type="alternate" sortindex="1" value="Gloomhaven: Мрачная Гавань" />
+			    				
+				<name type="alternate" sortindex="1" value="Homályrév" />
+			    				
+				<name type="alternate" sortindex="1" value="グルームヘイヴン" />
+			    				
+				<name type="alternate" sortindex="1" value="幽港迷城" />
+			    				
+				<name type="alternate" sortindex="1" value="글룸헤이븐" />
+			
+						               													<description>Gloomhaven  is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the roles of wandering adventurers with their own special sets of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.&amp;#10; This is a game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions about what to do next, which will determine how the story continues, kind of like a &amp;ldquo;Choose Your Own Adventure&amp;rdquo; book. Playing through a scenario is a co-operative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.&amp;#10;&amp;#10;Each turn, a player chooses two cards to play out of their hand. The number on the top card determines their initiative for the round. Each card also has a top and bottom power, and when it is a player&amp;rsquo;s turn in the initiative order, they determine whether to use the top power of one card and the bottom power of the other, or vice-versa. Players must be careful, though, because over time they will permanently lose cards from their hands. If they take too long to clear a dungeon, they may end up exhausted and be forced to retreat.&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2017" />
+						               				<minplayers value="1" />
+						               				<maxplayers value="4" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1567">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="147" />
+					<result value="Recommended" numvotes="680" />
+					<result value="Not Recommended" numvotes="371" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="391" />
+					<result value="Recommended" numvotes="859" />
+					<result value="Not Recommended" numvotes="90" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="777" />
+					<result value="Recommended" numvotes="519" />
+					<result value="Not Recommended" numvotes="38" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="476" />
+					<result value="Recommended" numvotes="629" />
+					<result value="Not Recommended" numvotes="167" />
+				</results>					
+			
+		<results numplayers="4+">		
+					<result value="Best" numvotes="6" />
+					<result value="Recommended" numvotes="51" />
+					<result value="Not Recommended" numvotes="883" />
+				</results>					
+	</poll>
+<poll-summary name="suggested_numplayers"  title="User Suggested Number of Players">
+  <result name="bestwith" value="Best with 3 players" />
+  <result name="recommmendedwith" value="Recommended with 1–4 players" />
+</poll-summary> 			               				<playingtime value="120" />
+						               				<minplaytime value="60" />
+						               				<maxplaytime value="120" />
+						               				<minage value="14" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="327">
+			<results>		
+					<result value="2" numvotes="5" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="0" />
+					<result value="8" numvotes="7" />
+					<result value="10" numvotes="42" />
+					<result value="12" numvotes="92" />
+					<result value="14" numvotes="152" />
+					<result value="16" numvotes="23" />
+					<result value="18" numvotes="3" />
+					<result value="21 and up" numvotes="3" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="70">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="1" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="2" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="47" />
+					<result level="5" value="Unplayable in another language" numvotes="20" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1022" value="Adventure" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1020" value="Exploration" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1010" value="Fantasy" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1046" value="Fighting" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1047" value="Miniatures" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2689" value="Action Queue" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2839" value="Action Retrieval" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2018" value="Campaign / Battle Card Driven" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2857" value="Card Play Conflict Resolution" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2893" value="Communication Limits" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2023" value="Cooperative Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2854" value="Critical Hits and Failures" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="3004" value="Deck Construction" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2676" value="Grid Movement" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2040" value="Hand Management" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2026" value="Hexagon Grid" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2824" value="Legacy Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2975" value="Line of Sight" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2011" value="Modular Board" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="3099" value="Multi-Use Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2851" value="Narrative Choice / Paragraph" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2846" value="Once-Per-Game Abilities" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2028" value="Role Playing" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2822" value="Scenario / Mission / Campaign Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2020" value="Simultaneous Action Selection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2819" value="Solo / Solitaire Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2027" value="Storytelling" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="3100" value="Tags" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2015" value="Variable Player Powers" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="59218" value="Category: Dungeon Crawler" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="67953" value="Components: Map (City Scale)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="25158" value="Components: Miniatures" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="65191" value="Components: Multi-Use Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="66335" value="Components: Standees" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="68438" value="Creatures: Demons" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7005" value="Creatures: Dragons" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5615" value="Creatures: Monsters" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="8374" value="Crowdfunding: Kickstarter" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="77349" value="Digital Implementations: Steam" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="73596" value="Digital Implementations: TableTop Simulator Mod (TTS)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="45610" value="Game: Gloomhaven" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="24281" value="Mechanism: Campaign Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="25404" value="Mechanism: Legacy" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="75241" value="Misc: Forteller Audio Narration" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78680" value="Misc: Made by Panda" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="365186" value="The Crimson Scales" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="367749" value="The Crimson Scales: Class Pack Add-on" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="367751" value="The Crimson Scales: Trail of Ashes" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="312632" value="Gloomhaven: Assault on the Morning Star (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="310777" value="Gloomhaven: Beyond the End of the World (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="380753" value="Gloomhaven: Envelope X Reward" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="250337" value="Gloomhaven: Forgotten Circles" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="312635" value="Gloomhaven: Memories of Gloomhaven (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="236232" value="Gloomhaven: Removable Sticker Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="298195" value="Gloomhaven: Return of the Lost Cabal (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="297586" value="Gloomhaven: Secrets of the Lost Cabal (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="226868" value="Gloomhaven: Solo Scenarios" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="310773" value="Gloomhaven: The Catacombs of Chaos (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="231934" value="Gloomhaven: The End of the World (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="300402" value="Gloomhaven: The Lucky Meeple (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="310754" value="Gloomhaven: The Tower of Misfortune (Promo Scenario)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="312638" value="Gloomhaven: Twilight of the Lost Cabal (Promo Scenario)" />
+		
+									
+			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="334735" value="Gloomhaven: reDrewno Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="418048" value="Frosthaven/Gloomhaven: Laserox Vitality Dial Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289347" value="Gloomhaven: Adventure Tokens – Altar" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306515" value="Gloomhaven: Adventure Tokens – Barrel" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289346" value="Gloomhaven: Adventure Tokens – Bear Trap" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289348" value="Gloomhaven: Adventure Tokens – Bookcase" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289343" value="Gloomhaven: Adventure Tokens – Boulder" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306373" value="Gloomhaven: Adventure Tokens – Bush" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="288415" value="Gloomhaven: Adventure Tokens – Cabinet" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289344" value="Gloomhaven: Adventure Tokens – Chest" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306378" value="Gloomhaven: Adventure Tokens – Crate" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306513" value="Gloomhaven: Adventure Tokens – Crystal" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289345" value="Gloomhaven: Adventure Tokens – Door" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289349" value="Gloomhaven: Adventure Tokens – Fountain" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="288414" value="Gloomhaven: Adventure Tokens – Log" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289350" value="Gloomhaven: Adventure Tokens – Nest" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="288418" value="Gloomhaven: Adventure Tokens – Poison Gas" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="288420" value="Gloomhaven: Adventure Tokens – Pressure Plate" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306376" value="Gloomhaven: Adventure Tokens – Rock Column" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="289342" value="Gloomhaven: Adventure Tokens – Rubble" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306517" value="Gloomhaven: Adventure Tokens – Sarcophagus" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306374" value="Gloomhaven: Adventure Tokens – Shelf" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="287230" value="Gloomhaven: Adventure Tokens – Spike Pit" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="288416" value="Gloomhaven: Adventure Tokens – Stairs" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306516" value="Gloomhaven: Adventure Tokens – Stone Pillar" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="287231" value="Gloomhaven: Adventure Tokens – Stump" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="287229" value="Gloomhaven: Adventure Tokens – Table" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306514" value="Gloomhaven: Adventure Tokens – Totem" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="288417" value="Gloomhaven: Adventure Tokens – Wall Section" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="272787" value="Gloomhaven: Broken Token Character Trays" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="272783" value="Gloomhaven: Broken Token Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="275029" value="Gloomhaven: Broken Token Organizer – Extra Dividers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="280078" value="Gloomhaven: Broken Token Organizer – Forgotten Circles Upgrade" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="272784" value="Gloomhaven: Broken Token Tuck Boxes" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="393273" value="Gloomhaven: Challenge Coin" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="282059" value="Gloomhaven: Crafting Kingdoms Playmats" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="308555" value="Gloomhaven: E-Raptor Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="261980" value="Gloomhaven: Folded Space Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="367191" value="Gloomhaven: Forgotten Circles – Tower Rex Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365880" value="Gloomhaven: Forgotten Circles – Tower Rex Organizer Upgrade" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="336186" value="Gloomhaven: Gaming Trunk Character&#039;s Tray" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="272804" value="Gloomhaven: Gloom Tavern Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="367868" value="Gloomhaven: Go7 Gaming Top Tray" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="250857" value="Gloomhaven: HP/XP Trackers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="261252" value="Gloomhaven: Laserox GloomBox Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306362" value="Gloomhaven: Laserox Monster Bases" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="418046" value="Gloomhaven: Laserox Sigil Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="293088" value="Gloomhaven: Metal Coin Upgrade" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="250858" value="Gloomhaven: Miniatures" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="366336" value="Gloomhaven: Momo Monster Playmat" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="273547" value="Gloomhaven: Player Mat" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="338418" value="Gloomhaven: Saim Lab Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="348625" value="Gloomhaven: The GiftForge Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365831" value="Gloomhaven: Tower Rex Character Dashboard" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365799" value="Gloomhaven: Tower Rex Dashboard" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="267166" value="Gloomhaven: Tower Rex Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="265296" value="Gloomhaven: WarBox Insert" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameintegration" id="295770" value="Frosthaven" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameintegration" id="291457" value="Gloomhaven: Jaws of the Lion" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="390478" value="Gloomhaven: Second Edition" />
+		
+									
+			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="69802" value="Isaac Childres" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="77084" value="Alexandr Elichev" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="78961" value="Josh T. McDowell" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="84269" value="Alvaro Nebot" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="27425" value="Cephalofair Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4304" value="Albi" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="46179" value="Albi Polska" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3475" value="Arclight Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="15605" value="Galápagos Jogos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="40478" value="Games Warehouse" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8820" value="Gém Klub Kft." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="18852" value="Hobby World" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="23756" value="MYBG Co., Ltd." />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgame" id="1406">
+         <thumbnail>https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__thumb/img/ezXcyEsHhS9iRxmuGe8SmiLLXlM=/fit-in/200x150/filters:strip_icc()/pic5786795.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__original/img/bA8irydTCNlE38QSzM9EhcUIuNU=/0x0/filters:format(jpeg)/pic5786795.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Monopoly" />
+			
+						                               				
+				<name type="alternate" sortindex="1" value="Ålborg på spil" />
+			    				
+				<name type="alternate" sortindex="1" value="Banco Imobiliário" />
+			    				
+				<name type="alternate" sortindex="1" value="Banco Imobiliário Brasil" />
+			    				
+				<name type="alternate" sortindex="1" value="Banco Imobiliário Mundo" />
+			    				
+				<name type="alternate" sortindex="1" value="Banco Imobiliário: Luxo" />
+			    				
+				<name type="alternate" sortindex="1" value="Beuru Mabeul" />
+			    				
+				<name type="alternate" sortindex="1" value="Cờ Phú Ông" />
+			    				
+				<name type="alternate" sortindex="1" value="Cờ Tỷ Phú" />
+			    				
+				<name type="alternate" sortindex="1" value="Compact Monopoly" />
+			    				
+				<name type="alternate" sortindex="1" value="Deluxe Monopoly" />
+			    				
+				<name type="alternate" sortindex="4" value="La Gran Capital" />
+			    				
+				<name type="alternate" sortindex="1" value="Gute Reise Monopoly" />
+			    				
+				<name type="alternate" sortindex="1" value="Kleppspelet" />
+			    				
+				<name type="alternate" sortindex="1" value="Metropoli" />
+			    				
+				<name type="alternate" sortindex="1" value="Millionær" />
+			    				
+				<name type="alternate" sortindex="1" value="Millionaire" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopol" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopol" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopol de Luxe" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopol De Luxe" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoli" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoli: Edizione Europea" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoli: Nopean sijoittajan kiinteistöpeli" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopolio" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly (Madrid/Barcelona)" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly 60" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly Edición Limitada (caja de madera)" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly Heute 2006" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly houten editie" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly Θησαυροι της Ελλαδας" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 1935 Deluxe" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 1935 Retro" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 25th Anniversary" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 50th Anniversary Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 60th Anniversary Edition (1935–1995)" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 65th Anniversary 1935-2000" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 70ste verjaardagseditie" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 70th Anniversary Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 80th anniversary edition 1935–2015" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: 85th Anniversary Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Das berühmte Gesellschaftsspiel" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Das berühmte Gesellschaftsspiel, Österreich Ausgabe" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Deluxe Anniversary Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Edizione Nostalgia" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: General Mills Collector&#039;s Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Greek Nostalgia Wooden Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Hið heimsfræga spil um fasteignaviðskipti" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: KeyChain Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Lietuva" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Nostalgia Tin BoxEdition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Nostalgia Wooden Box" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Philadelphia Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Premier 70th Anniversary Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Replik der deutschen Ausgabe von 1936" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: South African Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Standard Tunisian" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Swedish" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Swiss Edition" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: The Original" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Token Madness" />
+			    				
+				<name type="alternate" sortindex="1" value="Monopoly: Νοσταλγία" />
+			    				
+				<name type="alternate" sortindex="1" value="Mr. Paploo Millioner" />
+			    				
+				<name type="alternate" sortindex="1" value="Orkdalspillet" />
+			    				
+				<name type="alternate" sortindex="1" value="Sandnesspillet" />
+			    				
+				<name type="alternate" sortindex="1" value="Stavangerspillet" />
+			    				
+				<name type="alternate" sortindex="1" value="World&#039;s Smallest Monopoly" />
+			    				
+				<name type="alternate" sortindex="1" value="Μονοπώλιο" />
+			    				
+				<name type="alternate" sortindex="1" value="Монополия" />
+			    				
+				<name type="alternate" sortindex="1" value="Москва" />
+			    				
+				<name type="alternate" sortindex="1" value="מונופול" />
+			    				
+				<name type="alternate" sortindex="1" value="מונופול קלאסי" />
+			    				
+				<name type="alternate" sortindex="1" value="モノポリー" />
+			    				
+				<name type="alternate" sortindex="1" value="大富翁/强手棋" />
+			    				
+				<name type="alternate" sortindex="1" value="모노폴리" />
+			    				
+				<name type="alternate" sortindex="1" value="모노폴리 넘버 원" />
+			    				
+				<name type="alternate" sortindex="1" value="모노폴리 클래식" />
+			
+						               													<description>Theme&amp;#10;Players take the part of land owners, attempting to buy and then develop their land. Income is gained by other players visiting their properties and money is spent when they visit properties belonging to other players. When times get tough, players may have to mortgage their properties to raise cash for fines, taxes and other misfortunes.&amp;#10;&amp;#10;Gameplay&amp;#10;On his turn, a player rolls two dice and moves that number of spaces around the board. If the player lands on an as-yet-unowned property, he has the opportunity to buy it and add it to his portfolio or allow the bank to auction it to the highest bidder. If a player owns all the spaces within a color group, he may then build houses and hotels on these spaces, generating even more income from opponents who land there. If he lands on a property owned by another player, he must pay that player rent according to the value of the land and any buildings on it. There are other places on the board which can not be bought, but instead require the player to draw a card and perform the action on the card, pay taxes, collect income, or even go to jail.&amp;#10;&amp;#10;Goal&amp;#10;The goal of the game is to be the last player remaining with any money.&amp;#10;&amp;#10;Cultural impact on rules&amp;#10;Monopoly is unusual in that the game has official, printed rules, but most players learn how to play from others, never actually learning the correct way to play. This has led to the canonization of a number of house rules that make the game more palatable to children (and sore losers) but harm the gameplay by preventing players from going bankrupt or slowing down the rate of property acquisition. One common house rule has players put any money paid to the bank in the center of the board, which jackpot a player may earn by landing on Free Parking. This prevents the game from removing money from play, and since players collect $200 each time they pass Go, this results in ever-increasing bankrolls and players surviving rents that should have bankrupted them. Another house rule allows players to take &amp;quot;loans&amp;quot; from the bank instead of going bankrupt, which means the game will never end. Some house rules arise out of ignorance rather than attempts to improve the game. For instance, many players don't know that properties landed on but left unbought go up for auction, and even some that know to auction don't know that the bidding starts at $1, meaning a player may pay well below the listed price for an auctioned property.&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="1935" />
+						               				<minplayers value="2" />
+						               				<maxplayers value="8" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="378">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="5" />
+					<result value="Recommended" numvotes="3" />
+					<result value="Not Recommended" numvotes="315" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="13" />
+					<result value="Recommended" numvotes="110" />
+					<result value="Not Recommended" numvotes="210" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="63" />
+					<result value="Recommended" numvotes="211" />
+					<result value="Not Recommended" numvotes="64" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="265" />
+					<result value="Recommended" numvotes="54" />
+					<result value="Not Recommended" numvotes="37" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="81" />
+					<result value="Recommended" numvotes="179" />
+					<result value="Not Recommended" numvotes="68" />
+				</results>					
+			
+		<results numplayers="6">		
+					<result value="Best" numvotes="39" />
+					<result value="Recommended" numvotes="147" />
+					<result value="Not Recommended" numvotes="130" />
+				</results>					
+			
+		<results numplayers="7">		
+					<result value="Best" numvotes="12" />
+					<result value="Recommended" numvotes="45" />
+					<result value="Not Recommended" numvotes="237" />
+				</results>					
+			
+		<results numplayers="8">		
+					<result value="Best" numvotes="11" />
+					<result value="Recommended" numvotes="36" />
+					<result value="Not Recommended" numvotes="250" />
+				</results>					
+			
+		<results numplayers="8+">		
+					<result value="Best" numvotes="4" />
+					<result value="Recommended" numvotes="9" />
+					<result value="Not Recommended" numvotes="260" />
+				</results>					
+	</poll>
+<poll-summary name="suggested_numplayers"  title="User Suggested Number of Players">
+  <result name="bestwith" value="Best with 4 players" />
+  <result name="recommmendedwith" value="Recommended with 3–6 players" />
+</poll-summary> 			               				<playingtime value="180" />
+						               				<minplaytime value="60" />
+						               				<maxplaytime value="180" />
+						               				<minage value="8" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="198">
+			<results>		
+					<result value="2" numvotes="1" />
+					<result value="3" numvotes="1" />
+					<result value="4" numvotes="4" />
+					<result value="5" numvotes="10" />
+					<result value="6" numvotes="55" />
+					<result value="8" numvotes="98" />
+					<result value="10" numvotes="15" />
+					<result value="12" numvotes="10" />
+					<result value="14" numvotes="1" />
+					<result value="16" numvotes="1" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="2" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="87">
+			
+		<results>		
+					<result level="1" value="No necessary in-game text" numvotes="0" />
+					<result level="2" value="Some necessary text - easily memorized or small crib sheet" numvotes="22" />
+					<result level="3" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="58" />
+					<result level="4" value="Extensive use of text - massive conversion needed to be playable" numvotes="7" />
+					<result level="5" value="Unplayable in another language" numvotes="0" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1021" value="Economic" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2012" value="Auction / Bidding" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2918" value="Auction: English" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2902" value="Income" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2904" value="Loans" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2836" value="Lose a Turn" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2911" value="Ownership" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2685" value="Player Elimination" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2035" value="Roll / Spin and Move" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2004" value="Set Collection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2939" value="Track Movement" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2008" value="Trading" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="62857" value="Game: Monopoly (Official)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="10149" value="Series: Nostalgia (Hasbro)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="62234" value="Brands: Groceries" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="64788" value="Cities: Atlantic City (New Jersey, USA)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="67865" value="Cities: Reykjavík (Iceland)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78565" value="Components: 11 x 11 Grids" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="10317" value="Country: Poland" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="10310" value="Country: Spain" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="10313" value="Country: Sweden" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="10311" value="Country: Switzerland" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="79835" value="Mechanic: Circuit-Based Trading Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="105030" value="Misc: Dice Tower Hall of Fame" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78198" value="Misc: Watch It Played How To Videos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="11505" value="Promotional: Board Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="36967" value="Series: De Efteling" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="4462" value="Series: Monopoly Derivatives (Official)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="65824" value="Series: Monopoly Villes et Régions" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="100" value="Series: Monopoly-Like" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="43662" value="States: New Jersey" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="28535" value="Theme: Cereal Games" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="138841" value="Bance!" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="21659" value="Beyond Boardwalk and Park Place (fan expansion for Monopoly)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="208031" value="Cardopoly" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="362509" value="Co-opoly: a &quot;conversion kit&quot; for Monopoly" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="13102" value="Entrepreneur&#039;s Accessory to Monopoly (fan expansion for Monopoly)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="3446" value="Game Spice: Monopoly Expansion (fan expansion for Monopoly)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="352250" value="Improving Games: Monopoly" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="96025" value="Infla: Defla" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="28968" value="Mafiopoly" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="9466" value="Monopoly Stock Exchange Add-on" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="37893" value="Monopoly: Mob Rule Expansion Deck" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="200771" value="Socialism: The Game (fan expansion for Monopoly)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="16775" value="Super Add-Ons: Monopoly (fan expansion for Monopoly)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="355657" value="Variations on a Theme: Supplementary Rules for Monopoly" />
+		
+									
+			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="161988" value="Monopoly: Calculator" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="256144" value="Monopoly: Johnny Lightning Die-Cast Collectible Car &amp; Monopoly Game Token" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamecompilation" id="237073" value="Twin Play Classics: Monopoly and Scrabble" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="391742" value="Monopoly Chance" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="41186" value="Monopoly City" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="356071" value="Monopoly Crooked Cash" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="40398" value="Monopoly Deal Card Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="145842" value="Monopoly Empire" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="265297" value="Monopoly for Millennials" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="230408" value="Monopoly Gamer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="201890" value="Monopoly Jackpot" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="296341" value="Monopoly Jenga" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="295391" value="Monopoly L.O.L. Surprise!" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="66213" value="Monopoly Revolution" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="391992" value="Monopoly Scrabble" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="385660" value="Monopoly Travel World Tour" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="429844" value="Monopoly: Board Crawl" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="191133" value="Monopoly: Here &amp; Now World Edition" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="310883" value="Monopoly: Rivals Edition" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="24764" value="Monopoly: The Mega Edition" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="289363" value="Ms. Monopoly" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="364269" value="My First Monopoly Game" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="158867" value="Fortune" inbound="true"/>
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="29316" value="The Landlord&#039;s Game" inbound="true"/>
+		
+									
+			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="1268" value="Charles Darrow" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="3109" value="Elizabeth J. Magie (Phillips)" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="3" value="(Uncredited)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="1268" value="Charles Darrow" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="50283" value="Edison Girard" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="28" value="Parker Brothers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4" value="(Self-Published)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3320" value="(Unknown)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="53257" value="A. F. Tompson &amp; Son Ltd." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3312" value="Åhlén &amp; Åkerlund" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="404" value="Alga" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="16840" value="Altap" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="74" value="ASS Altenburger Spielkarten" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="45423" value="Aurimagic" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4922" value="Barnes &amp; Noble" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4680" value="Borras Plana S.A." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="5768" value="Brohm-Parker-Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="1935" value="Carlit" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="1772" value="Clipper" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="2919" value="Damm / Egmont" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8287" value="deSka" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="253" value="Editrice Giochi" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="32180" value="Edwards Dunlop And Company Limited" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="13292" value="Epoch Co., Ltd." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="1731" value="Estrela" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="6689" value="Franz Schmidt" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="9401" value="Funskool Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4527" value="General Mills" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="52321" value="Globetrade" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4417" value="Hanayama" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="51" value="Hasbro" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="36781" value="Inspiration tv network" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="28605" value="JinLiLai" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="661" value="John Sands Pty Ltd" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3922" value="John Waddington Ltd." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="48507" value="Kasco Industries" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="127" value="Klee" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="2721" value="Kod Kod" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="2090" value="Kuvataide" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="14602" value="Leaping Dog" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="2627" value="Majora" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="31874" value="Manhattan Agencies" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="17039" value="MB Juegos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="50626" value="Metrotoy" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="6892" value="MIKA" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="920" value="Miro Company" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="32395" value="NeoTroy Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="6876" value="Nilco S.A." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="21926" value="Nýja leikfangagerðin" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="634" value="The Op Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="2120" value="Oy Fenno-Alga Ab" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="52411" value="PanGraf" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4653" value="Parker Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="11720" value="Remoundo" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="38" value="Schmidt Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="52452" value="Schtelber" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4933" value="Smeets &amp; Schippers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="30088" value="Super Impulse" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="55790" value="The Swan Press Limited, Johannesburg" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="42" value="Tilsit" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4645" value="Toltoys" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="1322" value="Tomy" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="32817" value="Tomy Company, Ltd. (Takara Tomy)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="95" value="Waddingtons" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="59" value="Winning Moves Games (USA)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="24099" value="Winning Solutions (WS Game Company)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="11953" value="Zontik Games" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgame" id="342942">
+         <thumbnail>https://cf.geekdo-images.com/SoU8p28Sk1s8MSvoM4N8pQ__thumb/img/4KuHNTWSMPf8vTNDKSRMMI3oOv8=/fit-in/200x150/filters:strip_icc()/pic6293412.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/SoU8p28Sk1s8MSvoM4N8pQ__original/img/g4S18szTdrXCdIwVKzMKrZrYAcM=/0x0/filters:format(jpeg)/pic6293412.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Ark Nova" />
+			
+						                               				
+				<name type="alternate" sortindex="1" value="Archa Nova" />
+			    				
+				<name type="alternate" sortindex="1" value="Arche Nova" />
+			    				
+				<name type="alternate" sortindex="1" value="Новий ковчег" />
+			    				
+				<name type="alternate" sortindex="1" value="นาวาสรรพสัตว์" />
+			    				
+				<name type="alternate" sortindex="1" value="アーク・ノヴァ　新たなる方舟" />
+			    				
+				<name type="alternate" sortindex="1" value="方舟动物园" />
+			    				
+				<name type="alternate" sortindex="1" value="方舟動物園" />
+			    				
+				<name type="alternate" sortindex="1" value="아크 노바" />
+			
+						               													<description>In Ark Nova, you will plan and design a modern, scientifically managed zoo. With the ultimate goal of owning the most successful zoological establishment, you will build enclosures, accommodate animals, and support conservation projects all over the world. Specialists and unique buildings will help you in achieving this goal.&amp;#10;&amp;#10;Each player has a set of five action cards to manage their gameplay, and the power of an action is determined by the slot the card currently occupies. The cards in question are:&amp;#10;&amp;#10;&amp;#10;    CARDS: Allows you to gain new zoo cards (animals, sponsors, and conservation project cards).&amp;#10;    BUILD: Allows you to build standard or special enclosures, kiosks, and pavilions.&amp;#10;    ANIMALS: Allows you to accommodate animals in your zoo.&amp;#10;    ASSOCIATION: Allows your association workers to carry out different tasks.&amp;#10;    SPONSORS: Allows you to play a sponsor card in your zoo or to raise money.&amp;#10;&amp;#10;&amp;#10;255 cards featuring animals, specialists, special enclosures, and conservation projects, each with a special ability, are at the heart of Ark Nova. Use them to increase the appeal and scientific reputation of your zoo and collect conservation points.&amp;#10;&amp;#10;&amp;mdash;description from the publisher&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2021" />
+						               				<minplayers value="1" />
+						               				<maxplayers value="4" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1934">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="186" />
+					<result value="Recommended" numvotes="800" />
+					<result value="Not Recommended" numvotes="239" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="1235" />
+					<result value="Recommended" numvotes="493" />
+					<result value="Not Recommended" numvotes="36" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="549" />
+					<result value="Recommended" numvotes="871" />
+					<result value="Not Recommended" numvotes="143" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="95" />
+					<result value="Recommended" numvotes="537" />
+					<result value="Not Recommended" numvotes="846" />
+				</results>					
+			
+		<results numplayers="4+">		
+					<result value="Best" numvotes="2" />
+					<result value="Recommended" numvotes="7" />
+					<result value="Not Recommended" numvotes="959" />
+				</results>					
+	</poll>
+<poll-summary name="suggested_numplayers"  title="User Suggested Number of Players">
+  <result name="bestwith" value="Best with 2 players" />
+  <result name="recommmendedwith" value="Recommended with 1–3 players" />
+</poll-summary> 			               				<playingtime value="150" />
+						               				<minplaytime value="90" />
+						               				<maxplaytime value="150" />
+						               				<minage value="14" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="269">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="0" />
+					<result value="6" numvotes="2" />
+					<result value="8" numvotes="8" />
+					<result value="10" numvotes="34" />
+					<result value="12" numvotes="94" />
+					<result value="14" numvotes="113" />
+					<result value="16" numvotes="15" />
+					<result value="18" numvotes="3" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="72">
+			
+		<results>		
+					<result level="26" value="No necessary in-game text" numvotes="0" />
+					<result level="27" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="28" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="25" />
+					<result level="29" value="Extensive use of text - massive conversion needed to be playable" numvotes="43" />
+					<result level="30" value="Unplayable in another language" numvotes="4" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1089" value="Animals" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1021" value="Economic" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1084" value="Environmental" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2689" value="Action Queue" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2875" value="End Game Bonuses" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2978" value="Grid Coverage" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2040" value="Hand Management" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2026" value="Hexagon Grid" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2902" value="Income" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2914" value="Increase Value of Unchosen Resources" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2041" value="Open Drafting" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2876" value="Race" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2004" value="Set Collection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2819" value="Solo / Solitaire Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="3100" value="Tags" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2002" value="Tile Placement" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2015" value="Variable Player Powers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2897" value="Variable Set-up" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="67874" value="Components: Hexagonal Tiles" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="70360" value="Digital Implementations: Board Game Arena" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="77349" value="Digital Implementations: Steam" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="73596" value="Digital Implementations: TableTop Simulator Mod (TTS)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="76649" value="Game: Ark Nova" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="68335" value="Theme: Ecology" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="66167" value="Theme: Science" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="76846" value="Theme: Zoos, Aquaria, Safari Parks" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="368966" value="Ark Nova: Marine Worlds" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="433207" value="Ark Nova: Promotion Team &amp; Capybara Promo Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="368158" value="Ark Nova: Zoo Map Pack 1" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="426978" value="Ark Nova: Zoo Map Pack 2" />
+		
+									
+			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="433128" value="Ark Nova + Marine Worlds: Eurohell Design Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="366502" value="Ark Nova: BGExpansions Full Upgrade Kit" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365692" value="Ark Nova: Board Game Amplifier Acrylic Overlay" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="413174" value="Ark Nova: e-Raptor Insert UV Print" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="375802" value="Ark Nova: Eurohell Design Coffee Mug" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="357875" value="Ark Nova: Eurohell Design Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="366164" value="Ark Nova: Eurohell Design Upgrade Coins" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="375801" value="Ark Nova: Eurohell Design X-tokens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="360411" value="Ark Nova: Folded Space Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="419823" value="Ark Nova: LaserLand 112 Token Upgrades" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="419824" value="Ark Nova: LaserLand Marine Worlds Association Board Overlay" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="419822" value="Ark Nova: LaserLand Player Board Overlays" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="367202" value="Ark Nova: Laserox Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="426880" value="Ark Nova: Moedas &amp; Co. Metal Coins" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="434368" value="Ark Nova: Polandgames Token Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="368014" value="Ark Nova: reDrewno Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="382556" value="Ark Nova: Sloyca Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="378754" value="Ark Nova: Spielmaterial.de Upgrade" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="367999" value="Ark Nova: The GiftForge Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="367516" value="Ark Nova: Wooden tokens" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="138517" value="Mathias Wigge" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="138547" value="Steffen Bieker" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="11462" value="Loïc Billiau" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="12484" value="Dennis Lohausen" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="11797" value="Christof Tisch" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="30958" value="Capstone Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="21608" value="CMON Global Limited" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="10768" value="Cranio Creations" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="12540" value="Game Harbor" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8820" value="Gém Klub Kft." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="42325" value="Grok Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="17179" value="IGAMES" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3218" value="Lautapelit.fi" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="29242" value="Ludofy Creative" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="30677" value="Maldito Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="7992" value="MINDOK" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="51614" value="MIPL" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="2726" value="Portal Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="44241" value="Regatul Jocurilor" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="29409" value="Super Meeple" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="39774" value="Tower Tactic Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4932" value="White Goblin Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="22609" value="テンデイズゲームズ(TendaysGames)" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+<item type="boardgame" id="266192">
+         <thumbnail>https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__thumb/img/VNToqgS2-pOGU6MuvIkMPKn_y-s=/fit-in/200x150/filters:strip_icc()/pic4458123.jpg</thumbnail>
+      <image>https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__original/img/cI782Zis9cT66j2MjSHKJGnFPNw=/0x0/filters:format(jpeg)/pic4458123.jpg</image>
+                                     				
+				<name type="primary" sortindex="1" value="Wingspan" />
+			
+						                               				
+				<name type="alternate" sortindex="1" value="Fesztáv" />
+			    				
+				<name type="alternate" sortindex="1" value="Flügelschlag" />
+			    				
+				<name type="alternate" sortindex="1" value="Na křídlech" />
+			    				
+				<name type="alternate" sortindex="1" value="Na skrzydłach" />
+			    				
+				<name type="alternate" sortindex="1" value="Spārnotie" />
+			    				
+				<name type="alternate" sortindex="1" value="Sparnuotieji" />
+			    				
+				<name type="alternate" sortindex="1" value="Tiivulised" />
+			    				
+				<name type="alternate" sortindex="1" value="Wingspan srpsko izdanje" />
+			    				
+				<name type="alternate" sortindex="1" value="Wingspan: Lumea păsărilor" />
+			    				
+				<name type="alternate" sortindex="1" value="Άνοιγμα φτερών" />
+			    				
+				<name type="alternate" sortindex="1" value="Крила" />
+			    				
+				<name type="alternate" sortindex="1" value="Криле" />
+			    				
+				<name type="alternate" sortindex="1" value="Крылья" />
+			    				
+				<name type="alternate" sortindex="1" value="ปีกปักษา" />
+			    				
+				<name type="alternate" sortindex="1" value="ウイングスパン" />
+			    				
+				<name type="alternate" sortindex="1" value="展翅翱翔" />
+			    				
+				<name type="alternate" sortindex="1" value="윙스팬" />
+			
+						               													<description>Wingspan is&amp;nbsp;a competitive, medium-weight, card-driven, engine-building board game from Stonemaier Games. It's designed by Elizabeth Hargrave and features over 170 birds illustrated by Beth Sobel, Natalia Rojas, and Ana Maria Martinez.&amp;#10;&amp;#10;You are bird enthusiasts&amp;mdash;researchers, bird watchers, ornithologists, and collectors&amp;mdash;seeking to discover and attract the best birds to your network of wildlife preserves. Each bird extends a chain of powerful combinations in one of your habitats (actions). These habitats  focus on several key aspects of growth:&amp;#10;&amp;#10;&amp;#10;     Gain food tokens via custom dice in a birdfeeder dice tower&amp;#10;     Lay eggs using egg miniatures in a variety of colors&amp;#10;     Draw from hundreds of unique bird cards and play them&amp;#10;&amp;#10;&amp;#10;The winner is the player with the most points after 4 rounds.&amp;#10;&amp;#10;&amp;mdash;description from the publisher&amp;#10;&amp;#10;From the 7th printing on, the base game box includes Wingspan: Swift-Start Promo Pack.&amp;#10;&amp;#10;</description>
+										      	               				<yearpublished value="2019" />
+						               				<minplayers value="1" />
+						               				<maxplayers value="5" />
+						      			<poll name="suggested_numplayers" title="User Suggested Number of Players" totalvotes="1936">
+			
+		<results numplayers="1">		
+					<result value="Best" numvotes="106" />
+					<result value="Recommended" numvotes="766" />
+					<result value="Not Recommended" numvotes="345" />
+				</results>					
+			
+		<results numplayers="2">		
+					<result value="Best" numvotes="568" />
+					<result value="Recommended" numvotes="1041" />
+					<result value="Not Recommended" numvotes="95" />
+				</results>					
+			
+		<results numplayers="3">		
+					<result value="Best" numvotes="1103" />
+					<result value="Recommended" numvotes="551" />
+					<result value="Not Recommended" numvotes="21" />
+				</results>					
+			
+		<results numplayers="4">		
+					<result value="Best" numvotes="509" />
+					<result value="Recommended" numvotes="844" />
+					<result value="Not Recommended" numvotes="204" />
+				</results>					
+			
+		<results numplayers="5">		
+					<result value="Best" numvotes="52" />
+					<result value="Recommended" numvotes="509" />
+					<result value="Not Recommended" numvotes="765" />
+				</results>					
+			
+		<results numplayers="5+">		
+					<result value="Best" numvotes="2" />
+					<result value="Recommended" numvotes="26" />
+					<result value="Not Recommended" numvotes="927" />
+				</results>					
+	</poll>
+<poll-summary name="suggested_numplayers"  title="User Suggested Number of Players">
+  <result name="bestwith" value="Best with 3 players" />
+  <result name="recommmendedwith" value="Recommended with 1–4 players" />
+</poll-summary> 			               				<playingtime value="70" />
+						               				<minplaytime value="40" />
+						               				<maxplaytime value="70" />
+						               				<minage value="10" />
+						      			<poll name="suggested_playerage" title="User Suggested Player Age" totalvotes="439">
+			<results>		
+					<result value="2" numvotes="0" />
+					<result value="3" numvotes="0" />
+					<result value="4" numvotes="0" />
+					<result value="5" numvotes="1" />
+					<result value="6" numvotes="11" />
+					<result value="8" numvotes="152" />
+					<result value="10" numvotes="200" />
+					<result value="12" numvotes="68" />
+					<result value="14" numvotes="7" />
+					<result value="16" numvotes="0" />
+					<result value="18" numvotes="0" />
+					<result value="21 and up" numvotes="0" />
+				</results>					
+	</poll> 			      			<poll name="language_dependence" title="Language Dependence" totalvotes="101">
+			
+		<results>		
+					<result level="86" value="No necessary in-game text" numvotes="0" />
+					<result level="87" value="Some necessary text - easily memorized or small crib sheet" numvotes="0" />
+					<result level="88" value="Moderate in-game text - needs crib sheet or paste ups" numvotes="26" />
+					<result level="89" value="Extensive use of text - massive conversion needed to be playable" numvotes="71" />
+					<result level="90" value="Unplayable in another language" numvotes="4" />
+				</results>					
+	</poll> 			      			 			      				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1089" value="Animals" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1002" value="Card Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamecategory" id="1094" value="Educational" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2689" value="Action Queue" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2072" value="Dice Rolling" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2875" value="End Game Bonuses" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2040" value="Hand Management" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2846" value="Once-Per-Game Abilities" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2041" value="Open Drafting" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2004" value="Set Collection" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2819" value="Solo / Solitaire Game" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamemechanic" id="2828" value="Turn Order: Progressive" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="45672" value="Animals: Birds" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7657" value="Animals: Crows / Ravens / Magpies" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="7306" value="Animals: Ducks" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="63073" value="Animals: Eagles" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="18887" value="Animals: Geese" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="18588" value="Animals: Owls" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="17963" value="Animals: Turkeys" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="66553" value="Components: Control Boards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="65328" value="Components: Dice with Icons" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="66772" value="Components: Drop Tower" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="48877" value="Components: Game Trayz Inside" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="70360" value="Digital Implementations: Board Game Arena" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78432" value="Digital Implementations: Google Play" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="77349" value="Digital Implementations: Steam" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="73596" value="Digital Implementations: TableTop Simulator Mod (TTS)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="70948" value="Digital Implementations: Tabletopia" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="58267" value="Game: Wingspan" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="27646" value="Mechanism: Tableau Building" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78680" value="Misc: Made by Panda" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="78198" value="Misc: Watch It Played How To Videos" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="72487" value="Organizations: Automa Factory" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="5666" value="Players: Games with Solitaire Rules" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="59442" value="Theme: Biology" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamefamily" id="48871" value="Theme: Nature" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="339017" value="Frogmouth Fan Pack (fan expansion for Wingspan)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="290448" value="Wingspan: European Expansion" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="368895" value="Wingspan: Grus Japonensis Promo Card" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="300580" value="Wingspan: Oceania Expansion" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameexpansion" id="290837" value="Wingspan: Swift-Start Promo Pack" />
+		
+									
+			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="419414" value="Na křídlech: Dřevěná házecí budka" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="385692" value="Wingspan (+Europa +Oceania +Asia): The GiftForge Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="382383" value="Wingspan (+European and Oceania): Tower Rex Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="347405" value="Wingspan + European and Oceania expansion: Game Tamer Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="400722" value="Wingspan: BGExpansions Upgrade Kit" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="279529" value="Wingspan: Birdhouse Upgrade Kit (40 pcs)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="288012" value="Wingspan: Broken Token Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="319459" value="Wingspan: Card Update Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="369406" value="Wingspan: Crocheted Egg &amp; Food Token Nests" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="321747" value="Wingspan: Double-Sided Wrapped-Edge Goal Board" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="309487" value="Wingspan: e-Raptor Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="306762" value="Wingspan: Egg Miniatures (75 pcs)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="402091" value="Wingspan: European Expansion – Vision-Friendly Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="402724" value="Wingspan: Fan Art Pack" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="393448" value="Wingspan: Feldherr Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="315526" value="Wingspan: Folded Space Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="330947" value="Wingspan: Folded Space Insert (Second edition)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="291710" value="Wingspan: GeekUp Bit Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="308310" value="Wingspan: GeekUp Mini 1st Player Figure" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="393955" value="Wingspan: Go7 Gaming insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="405113" value="Wingspan: Golden Eggs" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="328253" value="Wingspan: Holy Tokens Realistic Food Tokens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="271952" value="Wingspan: Insert Here Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="406412" value="Wingspan: Matagot Wooden Food Upgrade Kit" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365511" value="Wingspan: Meeple Source 3D Printed Nests" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="279528" value="Wingspan: Meeple Source Bird Food Upgrade Kit (105 pcs)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="279530" value="Wingspan: Meeple Source Deluxe Bird Upgrade Set (81 pcs)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="430965" value="Wingspan: Meeple Source Large Scissor-Tailed Flycatcher First Player Token" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="326043" value="Wingspan: Mini Dice Tower Kit – Birdhouse" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="366362" value="Wingspan: Momo Monster Action Bird Pieces Upgrade" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="308098" value="Wingspan: Momo Monster Food Tokens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="299030" value="Wingspan: Mücke Spiele Wooden Token Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="316489" value="Wingspan: Neoprene Player Mat" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="372068" value="Wingspan: Nesting Box" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="400380" value="Wingspan: Oceania Expansion – BGExpansions Nectar Tokens" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="346690" value="Wingspan: Oceania Expansion – GeekUp Bit Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="336149" value="Wingspan: Oceania Expansion – Meeple Source Nectar tokens (69 pcs)" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="366363" value="Wingspan: Oceania Expansion – Momo Monster 70-Piece Nectar Upgrade Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365816" value="Wingspan: Oceania Expansion – Tower Rex 48-Piece Wooden Nectar Token Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="331898" value="Wingspan: Pair of Single-Sided Neoprene Goal Mats" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="337694" value="Wingspan: reDrewno Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="308103" value="Wingspan: Shipshape Game Box Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="343462" value="Wingspan: Shipshape Gamer Owl Player Markers" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="339260" value="Wingspan: Speckled Eggs" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="305000" value="Wingspan: The Game Doctors Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="385710" value="Wingspan: The GiftForge Bird house dice tower" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="348603" value="Wingspan: The GiftForge Insert" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365817" value="Wingspan: Tower Rex 105-Piece Wooden Food Token Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365812" value="Wingspan: Tower Rex 40-Piece Player Token Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="294178" value="Wingspan: Tower Rex Organizer" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365803" value="Wingspan: Tower Rex Playerboard" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="365802" value="Wingspan: Tower Rex Scoreboard" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="382600" value="Wingspan: TowerRex Duel Player&#039;s Birds Set" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="393808" value="Wingspan: Vision-Friendly Cards" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="292334" value="Wingspan: WingMate" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="284961" value="Wingspan: Wooden Dice Tower" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameaccessory" id="432830" value="Wyrmspan/Wingspan: Stone Eggs" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameintegration" id="366161" value="Wingspan Asia" />
+		
+									
+			
+
+			      			
+
+			      			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameimplementation" id="410201" value="Wyrmspan" />
+		
+									
+			
+
+			      			
+
+			      	      	      				
+		 			
+
+			
+		
+					<link type="boardgamedesigner" id="111338" value="Elizabeth Hargrave" />
+		
+									
+			
+
+			      				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="113749" value="Ana Maria Martinez Jaramillo" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="113748" value="Natalia Rojas" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="41862" value="Greg May" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgameartist" id="71164" value="Beth Sobel" />
+		
+									
+			
+
+			      	      				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="23202" value="Stonemaier Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="267" value="999 Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="38809" value="Angry Lion Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3475" value="Arclight Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="157" value="Asmodee" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="57596" value="Automa Factory" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="50565" value="Bluebird Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="7162" value="Brain Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="6194" value="Delta Vision Publishing" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="40415" value="Divercentro" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="22380" value="Feuerland Spiele" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="4785" value="Ghenos Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="46884" value="Green Elephant Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="42325" value="Grok Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="6214" value="Kaissa Chess &amp; Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="8291" value="Korea Boardgames" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="3218" value="Lautapelit.fi" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="34801" value="Lavka Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="29242" value="Ludofy Creative" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="30677" value="Maldito Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="5400" value="Matagot" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="7992" value="MINDOK" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="51614" value="MIPL" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="32395" value="NeoTroy Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="7466" value="Rebel Sp. z o.o." />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="44241" value="Regatul Jocurilor" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="33998" value="Siam Board Games" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="36763" value="Surfin&#039; Meeple China" />
+		
+									
+				
+		 			
+
+			
+		
+					<link type="boardgamepublisher" id="44209" value="Ігромаг" />
+		
+									
+			
+
+			
+	
+
+	
+
+	
+	
+	
+   
+	
+          
+</item>
+</items>
