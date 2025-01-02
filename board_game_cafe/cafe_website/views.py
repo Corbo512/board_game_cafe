@@ -1,14 +1,12 @@
 from django.shortcuts import render, redirect, get_object_or_404
-from django.urls import reverse_lazy
 from django.contrib.auth import authenticate, login, logout
 from .forms import UserLoginForm, UserRegisterForm, ReservationForm
-from .models import Game, CustomUser, Reservation
+from .models import Game, Reservation
 from django.views import View
-from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.views.generic.edit import CreateView
 from django.views.generic import ListView
 from django.contrib.auth.mixins import LoginRequiredMixin
-
+from .utils import fetch_game_details
 
 class HomeView(View):
     def get(self, request, *args, **kwargs):
@@ -111,3 +109,12 @@ class GameListView(ListView):
     context_object_name = 'games'
     paginate_by = 12
     ordering = ['name']
+
+class GameDetailsView(View):
+    template_name = 'game_details.html'
+    context_object_name = 'game'
+
+    def get(self, request, *args, **kwargs):
+        game_id = self.kwargs['pk']
+        game = fetch_game_details('games.xml', game_id)
+        return game

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ game.title }}{% endblock %}
+
+{% block content %}
+<h1>{{ game.title }}</h1>
+<p><strong>Players:</strong> {{ game.min_players }} - {{ game.max_players }}</p>
+<p><strong>Minimum age:</strong> {{ game.min_age }}</p>
+<p><strong>Description:</strong> {{ game.description }}</p>
+{% endblock %}

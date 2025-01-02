@@ -5,7 +5,9 @@
 {% block content %}
 <ol>
     {% for game in games %}
-    <li>{{ game }}</li>
+    <li>
+        <a href="{% url 'game_details' game.id %}">{{ game.name }}</a>
+    </li>
     {% endfor %}
 </ol>
 <div class="pagination">
