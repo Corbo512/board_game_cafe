@@ -10,10 +10,11 @@ class UserRegisterForm(UserCreationForm):
         fields = ['username', 'email', 'first_name', 'last_name', 'phone', 'password1', 'password2']
 
     def clean(self):
+        cleaned_data = super().clean()
         email = self.cleaned_data.get('email')
         if not email:
             raise forms.ValidationError("Email is required.")
-        return email
+        return cleaned_data
 
 
 class UserLoginForm(forms.Form):
