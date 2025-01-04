@@ -1,16 +1,17 @@
+from django.contrib.auth.views import LoginView, LogoutView
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import authenticate, login, logout
+from django.urls import reverse_lazy
 from .forms import UserLoginForm, UserRegisterForm, ReservationForm
 from .models import Game, Reservation
 from django.views import View
 from django.views.generic.edit import CreateView
-from django.views.generic import ListView, DetailView
+from django.views.generic import TemplateView, ListView, DetailView
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .utils import fetch_game_details
 
-class HomeView(View):
-    def get(self, request, *args, **kwargs):
-        return render(request, 'home.html')
+class HomeView(TemplateView):
+    template_name = 'home.html'
 
 class GameCollectionView(ListView):
     model = Game
@@ -19,44 +20,19 @@ class GameCollectionView(ListView):
     paginate_by = 12
     ordering = ['name']
 
-class UserRegisterView(View):
-    def get(self, request, *args, **kwargs):
-        form = UserRegisterForm()
-        return render(request, 'register.html', {'form': form})
+class UserRegisterView(CreateView):
+    template_name = 'register.html'
+    form_class = UserRegisterForm
+    success_url = reverse_lazy('register_complete')
 
-    def post(self, request, *args, **kwargs):
-        form = UserRegisterForm(request.POST)
-        if form.is_valid():
-            form.save()
-            return redirect('register_complete')
-        return render(request, 'register.html', {'form': form})
+class UserRegisterCompleteView(TemplateView):
+    template_name = 'register_complete.html'
 
-class UserRegisterCompleteView(View):
-    def get(self, request, *args, **kwargs):
-        return render(request, 'register_complete.html')
+class UserLoginView(LoginView):
+    template_name = 'login.html'
 
-class UserLoginView(View):
-    def get(self, request, *args, **kwargs):
-        form = UserLoginForm()
-        return render(request, 'login.html', {'form': form, 'next': request.GET.get('next', '/')})
-
-    def post(self, request, *args, **kwargs):
-        form = UserLoginForm(request.POST)
-        if form.is_valid():
-            username = form.cleaned_data.get('username')
-            password = form.cleaned_data.get('password')
-            user = authenticate(username=username, password=password)
-            if user:
-                login(request, user)
-                next_url = request.POST.get('next', 'home')
-                return redirect(next_url)
-        return render(request, 'login.html', {'form': form})
-
-class UserLogoutView(View):
-    def post(self, request, *args, **kwargs):
-        logout(request)
-        return redirect('home')
-
+class UserLogoutView(LogoutView):
+    next_page = 'home'
 
 class ReservationCreateView(LoginRequiredMixin, CreateView):
     model = Reservation

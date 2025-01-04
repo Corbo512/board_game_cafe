@@ -24,11 +24,22 @@ def test_user_login_view(client, user):
     assert response.status_code == 302
     assert response.url == reverse('home')
 
+@pytest.mark.django_db
+def test_user_login_redirect_with_next(client, user):
+    login_url = '/accounts/login/?next=/reservation/1/'
+    response = client.post(login_url, {"username": "testuser", "password": "password123"})
+    assert response.status_code == 302
+    assert response.url == '/reservation/1/'
+
+@pytest.mark.django_db
+def test_user_login_invalid_credentials(client):
+    response = client.post('/accounts/login/', {"username": "wronguser", "password": "wrongpassword"})
+    assert response.status_code == 200
+    assert "Please enter a correct username and password" in response.content.decode()
 
 @pytest.mark.django_db
 def test_user_logout_view(client, user):
     client.login(username="testuser", password="password123")
-
     response = client.post(reverse('logout'))
     assert response.status_code == 302
     assert response.url == reverse('home')
