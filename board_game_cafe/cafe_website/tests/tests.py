@@ -11,10 +11,7 @@ def test_game_collection_view(client):
 
 
 @pytest.mark.django_db
-def test_game_details_view(client, db):
-    from cafe_website.models import Game
-    game = Game.objects.create(name="Wingspan", description="bird enthusiasts")
-
+def test_game_details_view(client, game):
     response = client.get(reverse('game_details', args=[game.pk]))
     assert response.status_code == 200
     assert "Wingspan" in response.content.decode()
