@@ -92,8 +92,8 @@ footer p {
 .game-title {
     margin-top: 10px;
     font-size: 14px;
+    font-weight: bold;
     color: black;
-    text-align: center;
     word-wrap: break-word;
     text-decoration: none;
 }

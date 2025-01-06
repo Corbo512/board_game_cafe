@@ -4,9 +4,15 @@
 
 {% block content %}
 <h1>Complete your reservation</h1>
-<form method="post">
-{% csrf_token %}
-{{ form.as_p }}
-<input type="submit" value="Make a reservation">
-</form>
+<div class="form-container">
+    <div class="form">
+        <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+            <div class="submit-button">
+        <input type="submit" value="Reserve">
+            </div>
+        </form>
+        </div>
+</div>
 {% endblock %}
