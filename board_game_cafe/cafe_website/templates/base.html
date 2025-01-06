@@ -1,14 +1,19 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Board Game Cafe{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
 <body>
     <header>
-        <h1>Board Game Cafe</h1>
         <nav>
+            <div>
+            <h1>Board Game Cafe</h1>
+            </div>
+            <div>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/admin/">Admin</a></li>
@@ -16,11 +21,15 @@
                 <li><a href="{% url 'login' %}">Login</a></li>
                 <li><a href="{% url 'register' %}">Registration</a></li>
                 <li><a href="{% url 'games_reservation' %}">Reservation</a></li>
+            </ul>
+            </div>
+                <div>
                 <form method="post" action="{% url 'logout' %}">
                     {% csrf_token %}
                     <button>Logout</button>
                 </form>
-            </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -29,7 +38,14 @@
     </main>
 
     <footer>
-        <p>Board Game Cafe</p>
+        <div>
+            <p>Board Game Cafe 2025. All rights reserved.</p>
+        </div>
+        <div>
+            <p>+44 111 222 333</p>
+            <p>bgcafe@email.com</p>
+            <p>221b Baker Street, London</p>
+        </div>
     </footer>
 </body>
 </html>

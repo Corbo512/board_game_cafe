@@ -1,0 +1,84 @@
+body, head {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dimgray;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none; /* Usuń kropki z listy */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Wyświetl elementy w jednej linii */
+    gap: 15px; /* Odstępy między linkami */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none; /* Usuń podkreślenia */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Podkreślenie po najechaniu */
+}
+
+/* Stylizacja stopki */
+footer {
+    display: flex; /* Używamy flexboxa */
+    margin-top: auto;
+    justify-content: space-between; /* Rozstawiamy divy na całą szerokość */
+    align-items: center; /* Wyrównanie pionowe */
+    background-color: #333; /* Ciemne tło */
+    color: white; /* Kolor tekstu */
+    padding: 20px; /* Odstępy wewnętrzne */
+    flex-wrap: wrap; /* Pozwalamy elementom się zawijać w przypadku małych ekranów */
+}
+
+footer {
+    display: flex; /* Używamy flexboxa */
+    justify-content: space-between; /* Rozstawiamy divy na całą szerokość */
+    align-items: center; /* Wyrównanie pionowe */
+    background-color: dimgray; /* Ciemne tło */
+    color: white; /* Kolor tekstu */
+    padding: 10px 20px; /* Zmniejszone odstępy wewnętrzne */
+    font-size: 12px; /* Zmniejszona czcionka */
+}
+
+/* Stylizacja każdego diva w stopce */
+footer div {
+    flex: 1; /* Równomierne rozłożenie szerokości */
+    margin: 5px; /* Zmniejszone odstępy */
+}
+
+/* Wyśrodkowanie tekstu w pierwszym divie */
+footer div:first-child {
+    text-align: left;
+}
+
+/* Wyśrodkowanie tekstu w drugim divie */
+footer div:last-child {
+    text-align: right;
+}
+
+/* Stylizacja tekstu w stopce */
+footer p {
+    margin: 3px 0; /* Bardzo małe odstępy między liniami */
+    line-height: 1.2; /* Kompaktowy odstęp między liniami */
+}
