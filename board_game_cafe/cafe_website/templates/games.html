@@ -3,13 +3,16 @@
 {% block title %}Our collection{% endblock %}
 
 {% block content %}
-<ol>
+<div class="game-grid">
     {% for game in games %}
-    <li>
-        <a href="{% url 'game_details' game.id %}">{{ game.name }}</a>
-    </li>
+    <div class="game-item">
+        <a href="{% url 'game_details' game.id %}">
+            <img src="{{ game.thumbnail }}" class="game-thumbnail">
+        </a>
+        <a href="{% url 'game_details' game.id %}" class="game-title">{{ game.name }}</a>
+    </div>
     {% endfor %}
-</ol>
+</div>
 <div class="pagination">
     <span class="step-links">
         {% if page_obj.has_previous %}

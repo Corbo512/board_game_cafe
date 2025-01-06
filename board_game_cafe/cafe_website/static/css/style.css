@@ -11,6 +11,7 @@ body {
 
 main {
     flex: 1;
+    margin: 10px;
 }
 
 nav {
@@ -23,62 +24,64 @@ nav {
 }
 
 nav ul {
-    list-style-type: none; /* Usuń kropki z listy */
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Wyświetl elementy w jednej linii */
-    gap: 15px; /* Odstępy między linkami */
+    display: flex;
+    gap: 15px;
 }
 
 nav ul li a {
     color: white;
-    text-decoration: none; /* Usuń podkreślenia */
+    text-decoration: none;
 }
 
 nav ul li a:hover {
-    text-decoration: underline; /* Podkreślenie po najechaniu */
-}
-
-/* Stylizacja stopki */
-footer {
-    display: flex; /* Używamy flexboxa */
-    margin-top: auto;
-    justify-content: space-between; /* Rozstawiamy divy na całą szerokość */
-    align-items: center; /* Wyrównanie pionowe */
-    background-color: #333; /* Ciemne tło */
-    color: white; /* Kolor tekstu */
-    padding: 20px; /* Odstępy wewnętrzne */
-    flex-wrap: wrap; /* Pozwalamy elementom się zawijać w przypadku małych ekranów */
+    text-decoration: underline;
 }
 
 footer {
-    display: flex; /* Używamy flexboxa */
-    justify-content: space-between; /* Rozstawiamy divy na całą szerokość */
-    align-items: center; /* Wyrównanie pionowe */
-    background-color: dimgray; /* Ciemne tło */
-    color: white; /* Kolor tekstu */
-    padding: 10px 20px; /* Zmniejszone odstępy wewnętrzne */
-    font-size: 12px; /* Zmniejszona czcionka */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dimgray;
+    color: white;
+    padding: 10px 20px;
+    font-size: 12px;
 }
 
-/* Stylizacja każdego diva w stopce */
-footer div {
-    flex: 1; /* Równomierne rozłożenie szerokości */
-    margin: 5px; /* Zmniejszone odstępy */
-}
-
-/* Wyśrodkowanie tekstu w pierwszym divie */
-footer div:first-child {
-    text-align: left;
-}
-
-/* Wyśrodkowanie tekstu w drugim divie */
-footer div:last-child {
-    text-align: right;
-}
-
-/* Stylizacja tekstu w stopce */
 footer p {
-    margin: 3px 0; /* Bardzo małe odstępy między liniami */
-    line-height: 1.2; /* Kompaktowy odstęp między liniami */
+    margin: 3px 0;
+    line-height: 1.2;
+    text-align-last: right;
 }
+
+.game-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 50px;
+    padding: 20px;
+}
+
+.game-item {
+    text-align: center;
+}
+
+.game-thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+/* Tytuły gier */
+.game-title {
+    margin-top: 10px;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    word-wrap: break-word;
+    text-decoration: none;
+}
+
+game-title

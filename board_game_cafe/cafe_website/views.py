@@ -20,6 +20,18 @@ class GameCollectionView(ListView):
     paginate_by = 12
     ordering = ['name']
 
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        xml_game_details = fetch_game_details('games.xml')
+
+        for game in context['games']:
+            for xml_game in xml_game_details:
+                if game.name == xml_game['title']:
+                    game.thumbnail = xml_game['thumbnail']
+                    break
+
+        return context
+
 class UserRegisterView(CreateView):
     template_name = 'register.html'
     form_class = UserRegisterForm
