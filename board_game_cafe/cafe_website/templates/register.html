@@ -3,10 +3,16 @@
 {% block title %}Registration{% endblock %}
 
 {% block content %}
-<h1>Register here!</h1>
-<form method="post">
-    {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Register" name="Register User">
-</form>
+<div class="form-title">
+    <h1>Register here!</h1>
+</div>
+<div class="form">
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <div class="submit-button">
+        <input type="submit" value="Register" name="Register User">
+        </div>
+    </form>
+</div>
 {% endblock %}

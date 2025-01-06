@@ -52,7 +52,7 @@ footer {
 
 footer p {
     margin: 3px 0;
-    line-height: 1.2;
+    line-height: 1;
     text-align-last: right;
 }
 
@@ -71,10 +71,9 @@ footer p {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
-/* Tytuły gier */
 .game-title {
     margin-top: 10px;
     font-size: 14px;
@@ -84,4 +83,60 @@ footer p {
     text-decoration: none;
 }
 
-game-title
+.form {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    outline: 1px gray solid;
+    border-radius: 2px;
+    height: auto;
+    width: 400px;
+}
+
+.form form > * {
+    margin-bottom: 20px;
+}
+
+.form-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.submit-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+input[type=submit] {
+    color: black;
+    border: none;
+    border-radius: 2px;
+    outline: 1px dimgray solid;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.register-here-button {
+    color: black;
+    border: none;
+    border-radius: 2px;
+    outline: 1px dimgray solid;
+    height: 50px;
+    font-size: 15px;
+}
+
+.register-here-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.register-here-container {
+
+}
