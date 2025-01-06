@@ -6,27 +6,29 @@
 <div class="form-title">
     <h1>Loggin in? Great!</h1>
 </div>
-<div class="form">
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        {% if form.errors %}
-            {% for error in field.errors %}
-            {{ error }}
-            {% endfor %}
-        {% endif %}
-        <input type="hidden" name="next" value="{{ request.GET.next }}">
-        <div class="submit-button">
-        <input type="submit" value="Sign in" name="Login User">
-        </div>
-        <div class="register-here-container">
-            <div class="form-title">
-                <h2>No account yet?</h2>
+<div class="form-container">
+    <div class="form">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            {% if form.errors %}
+                {% for error in field.errors %}
+                {{ error }}
+                {% endfor %}
+            {% endif %}
+            <input type="hidden" name="next" value="{{ request.GET.next }}">
+            <div class="submit-button">
+            <input type="submit" value="Sign in" name="Login User">
             </div>
-            <div class="register-here-button-container">
-            <button class="register-here-button" name="Register Here">Register here</button>
+            <div class="register-here-container">
+                <div class="form-title">
+                    <h2>No account yet?</h2>
+                </div>
+                <div class="register-here-button-container">
+                <button class="register-here-button" name="Register Here">Register here</button>
+                </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
 </div>
 {% endblock %}

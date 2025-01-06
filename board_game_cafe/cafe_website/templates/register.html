@@ -6,13 +6,15 @@
 <div class="form-title">
     <h1>Register here!</h1>
 </div>
-<div class="form">
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <div class="submit-button">
-        <input type="submit" value="Register" name="Register User">
-        </div>
-    </form>
+<div class="form-container">
+    <div class="form">
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="submit-button">
+            <input type="submit" value="Register" name="Register User">
+            </div>
+        </form>
+    </div>
 </div>
 {% endblock %}

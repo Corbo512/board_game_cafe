@@ -95,8 +95,25 @@ footer p {
     width: 400px;
 }
 
-.form form > * {
-    margin-bottom: 20px;
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.form form label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form p {
+    display: flex;
+    flex-direction: column;
+}
+
+.helptext {
+    display: block;
+    margin: 10px;
 }
 
 .form-title {
