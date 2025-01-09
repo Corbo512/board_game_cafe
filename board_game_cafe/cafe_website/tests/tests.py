@@ -95,7 +95,7 @@ def test_reservation_create_view(client, user, game, table):
     response = client.post(url, reservation_data)
 
     assert response.status_code == 302
-    assert response.url == reverse('home')
+    assert response.url == reverse('reservation_complete')
 
     from cafe_website.models import Reservation
     assert Reservation.objects.filter(user=user, game=game, table=table).exists()
@@ -113,4 +113,4 @@ def test_reservation_create_view_invalid_data(client, user, game, table, reserva
     response = client.post(url, reservation_data)
 
     assert response.status_code == 200
-    assert response.url == reverse('reservation', kwargs={'game_id': game.id})
+

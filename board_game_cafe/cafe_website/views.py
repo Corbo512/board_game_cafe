@@ -66,6 +66,7 @@ class ReservationCreateView(LoginRequiredMixin, CreateView):
         form = self.form_class(request.POST)
         if form.is_valid():
             reservation = form.save(commit=False)
+
             existing_reservations = Reservation.objects.filter(
                 game=reservation.game,
                 start_time__date=reservation.start_time.date()
@@ -83,13 +84,17 @@ class ReservationCreateView(LoginRequiredMixin, CreateView):
                         form.add_error(None,
                                        f'{reservation.table} is already reserved from {conflict.start_time} to {conflict.end_time}')
                     return render(request, self.template_name,
-                                  {'form': form, 'game': reservation.game, 'table': reservation.table})
+                                  {'form': form, 'game': reservation.game,
+                                   'table': reservation.table})
 
             reservation.user = request.user
             reservation.save()
-            return redirect('home')
+            return redirect('reservation_complete')
+
         return render(request, self.template_name, {'form': form})
 
+class ReservationCompleteView(TemplateView):
+    template_name = 'reservation_complete.html'
 
 class GameListView(ListView):
     model = Game
