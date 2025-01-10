@@ -156,21 +156,23 @@ input[type=submit] {
 }
 
 .register-here-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: black;
+    background-color: lightgray;
     border: none;
     border-radius: 2px;
     outline: 1px dimgray solid;
     height: 50px;
     width: 100px;
     font-size: 15px;
-}
-
-.register-here-button a {
     text-decoration: none;
-    color:black;
 }
 
 .register-here-button-container {
     display: flex;
     justify-content: center;
+    align-content: center;
 }
