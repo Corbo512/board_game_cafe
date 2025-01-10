@@ -1,10 +1,8 @@
 from django.contrib.auth.views import LoginView, LogoutView
 from django.shortcuts import render, redirect, get_object_or_404
-from django.contrib.auth import authenticate, login, logout
 from django.urls import reverse_lazy
-from .forms import UserLoginForm, UserRegisterForm, ReservationForm
+from .forms import UserRegisterForm, ReservationForm
 from .models import Game, Reservation
-from django.views import View
 from django.views.generic.edit import CreateView
 from django.views.generic import TemplateView, ListView, DetailView
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -67,15 +65,16 @@ class ReservationCreateView(LoginRequiredMixin, CreateView):
         if form.is_valid():
             reservation = form.save(commit=False)
 
-            existing_reservations = Reservation.objects.filter(
-                game=reservation.game,
-                start_time__date=reservation.start_time.date()
-            ).order_by('start_time') | Reservation.objects.filter(
-                table=reservation.table,
-                start_time__date=reservation.start_time.date()
-            ).order_by('start_time')
+            #optymalnie ustawić maks czas rezerwacji na 30 dni i od start_time odjąć 30
+            existing_reservations = (Reservation.objects.filter(
+                game=reservation.game).order_by('start_time') |
+            Reservation.objects.filter(
+                table=reservation.table).order_by('start_time'))
+
+            reservation.user = request.user
 
             for conflict in existing_reservations:
+                print(conflict)
                 if reservation.start_time < conflict.end_time and reservation.end_time > conflict.start_time:
                     if conflict.game == reservation.game:
                         form.add_error(None,
@@ -87,7 +86,6 @@ class ReservationCreateView(LoginRequiredMixin, CreateView):
                                   {'form': form, 'game': reservation.game,
                                    'table': reservation.table})
 
-            reservation.user = request.user
             reservation.save()
             return redirect('reservation_complete')
 

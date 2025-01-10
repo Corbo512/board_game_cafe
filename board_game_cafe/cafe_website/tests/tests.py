@@ -108,7 +108,7 @@ def test_reservation_create_view_invalid_data(client, user, game, table, reserva
         "game": game.id,
         "table": table.id,
         "start_time": "2024-12-01 11:11:00+00:00",
-        "end_time": "2024-12-03 11:11:00+00:00"
+        "end_time": "2024-12-03 11:12:00+00:00"
     }
     response = client.post(url, reservation_data)
 

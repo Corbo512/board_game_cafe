@@ -17,11 +17,8 @@ def table(db):
     return Table.objects.create(number=1, capacity=4)
 
 @pytest.fixture
-def reservation(db, user):
-    from cafe_website.models import Reservation, Game, Table
-
-    game = Game.objects.create(name="Wingspan", description="bird enthusiasts")
-    table = Table.objects.create(number=1, capacity=4)
+def reservation(db, user, game, table):
+    from cafe_website.models import Reservation
 
     return Reservation.objects.create(
         user=user,
