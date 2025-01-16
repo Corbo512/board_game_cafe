@@ -1,7 +1,15 @@
 import requests
 import os
+import sys
+import django
 import xml.etree.ElementTree as ET
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'board_game_cafe.settings')
+django.setup()
+
 from cafe_website.models import Game
+
 
 def fetch_game_details(filename):
     base_dir = os.path.dirname(os.path.abspath(__file__))
@@ -25,7 +33,7 @@ def fetch_game_details(filename):
                   "max_players": max_players,
                   "min_age": min_age,
                   "description": description,
-                  "thumbnail": thumbnail
+                  "thumbnail": thumbnail,
                   })
 
     return games
@@ -37,25 +45,29 @@ def save_games_to_database(game_ids):
     response = requests.get(url)
 
     if response.status_code == 200:
-        root = ET.formstring(response.content)
+        root = ET.fromstring(response.content)
         print("Saving games to database...")
 
         for game in root.findall("item"):
             title = game.find("name[@type='primary']").attrib['value']
             min_players = game.find("minplayers").attrib['value']
             max_players = game.find("maxplayers").attrib['value']
-            min_age = game.find("minage").attrib['value']
             description = game.find("description").text
-            thumbnail = game.find("thumbnail").text
+
+            authors = game.findall("link[@type='boardgamedesigner']")
+            author_names = set()
+            for author in authors:
+                author_names.add(author.attrib['value'])
+
+            author = ", ".join(author_names) if author_names else ''
 
             game, created = Game.objects.get_or_create(
                 name=title,
                 defaults={
                     'min_players': int(min_players),
                     'max_players': int(max_players),
-                    'min_age': int(min_age),
                     'description': description or '',
-                    'thumbnail': thumbnail or ''
+                    'author': author
                 }
             )
             if created:

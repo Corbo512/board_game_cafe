@@ -5,11 +5,10 @@ class CustomUser(AbstractUser):
     phone = models.CharField(max_length=255, blank=True, default='')
 
 class Author(models.Model):
-    first_name = models.CharField(max_length=255)
-    last_name = models.CharField(max_length=255)
+    name = models.CharField(max_length=255)
 
     def __str__(self):
-        return f'{self.first_name} {self.last_name}'
+        return f'{self.name}'
 
 class Game(models.Model):
     name = models.CharField(max_length=255)
