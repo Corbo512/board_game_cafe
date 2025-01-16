@@ -39,5 +39,6 @@ def save_games_to_file(game_ids, filename):
         with open(filename, "wb") as file:
             file.write(response.content)
 
-ids = [199792,266192,174430,1406,342942,233078,224517,316554,167791,162886,220308,12333,182028,169786,167355,177736,124361,341169,312484,251247]
-save_games_to_file(ids, "games.xml")
+if __name__ == "__main__":
+    ids = [199792,266192,174430,1406,342942,233078,224517,316554,167791,162886,220308,12333,182028,169786,167355,177736,124361,341169,312484,251247]
+    save_games_to_file(ids, "games.xml")
