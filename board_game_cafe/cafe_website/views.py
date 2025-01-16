@@ -6,7 +6,6 @@ from .models import Game, Reservation
 from django.views.generic.edit import CreateView
 from django.views.generic import TemplateView, ListView, DetailView
 from django.contrib.auth.mixins import LoginRequiredMixin
-from .utils import fetch_game_details
 
 class HomeView(TemplateView):
     template_name = 'home.html'
@@ -17,18 +16,6 @@ class GameCollectionView(ListView):
     context_object_name = 'games'
     paginate_by = 12
     ordering = ['name']
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        xml_game_details = fetch_game_details('games.xml')
-
-        for game in context['games']:
-            for xml_game in xml_game_details:
-                if game.name == xml_game['title']:
-                    game.thumbnail = xml_game['thumbnail']
-                    break
-
-        return context
 
 class UserRegisterView(CreateView):
     template_name = 'register.html'
@@ -108,14 +95,5 @@ class GameDetailsView(DetailView):
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        game_details = fetch_game_details('games.xml')
-        game_name = self.object.name
-
-        xml_game = ''
-        for game in game_details:
-            if game['title'] == game_name:
-                xml_game = game
-                break
-
-        context['xml_game'] = xml_game
+        context['authors'] = self.object.author.all()
         return context

@@ -11,34 +11,6 @@ django.setup()
 from cafe_website.models import Game, Author
 
 
-def fetch_game_details(filename):
-    base_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(base_dir, filename)
-
-    tree = ET.parse(file_path)
-    root = tree.getroot()
-
-    games = []
-
-    for game in root.findall("item"):
-        title = game.find("name[@type='primary']").attrib['value']
-        min_players = game.find("minplayers").attrib['value']
-        max_players = game.find("maxplayers").attrib['value']
-        min_age = game.find("minage").attrib['value']
-        description = game.find("description").text
-        thumbnail = game.find("thumbnail").text
-
-        games.append({"title": title,
-                  "min_players": min_players,
-                  "max_players": max_players,
-                  "min_age": min_age,
-                  "description": description,
-                  "thumbnail": thumbnail,
-                  })
-
-    return games
-
-
 def save_games_to_database(game_ids):
     ids = ",".join(map(str, game_ids))
     url = f"https://boardgamegeek.com/xmlapi2/thing?id={ids}"
@@ -53,6 +25,7 @@ def save_games_to_database(game_ids):
             min_players = game.find("minplayers").attrib['value']
             max_players = game.find("maxplayers").attrib['value']
             description = game.find("description").text
+            thumbnail = game.find("thumbnail").text
 
             authors = game.findall("link[@type='boardgamedesigner']")
             authors_data = []
@@ -67,7 +40,8 @@ def save_games_to_database(game_ids):
                 defaults={
                     'min_players': int(min_players),
                     'max_players': int(max_players),
-                    'description': description or ''
+                    'description': description or '',
+                    'thumbnail': thumbnail
                 }
             )
             if created:

@@ -1,11 +1,16 @@
 {% extends 'base.html' %}
 
-{% block title %}{{ xml_game.title }}{% endblock %}
+{% block title %}{{ game.name }}{% endblock %}
 
 {% block content %}
-<img src="{{ xml_game.thumbnail }}">
-<h1>{{ xml_game.title }}</h1>
-<p><strong>Players:</strong> {{ xml_game.min_players }} - {{ xml_game.max_players }}</p>
-<p><strong>Minimum age:</strong> {{ xml_game.min_age }}</p>
-<p><strong>Description:</strong> {{ xml_game.description }}</p>
+<img src="{{ game.thumbnail }}" class="game-thumbnail">
+<h1>{{ game.name }}</h1>
+<p><strong>Designer(s):
+    {% for author in authors %}
+        {{ author.name }}{% if not forloop.last %}, {% endif %}
+    {% endfor %}
+</strong></p>
+<p><strong>Players:</strong> {{ game.min_players }} - {{ game.max_players }}</p>
+<p><strong>Minimum age:</strong> {{ game.min_age }}</p>
+<p><strong>Description:</strong> {{ game.description }}</p>
 {% endblock %}
