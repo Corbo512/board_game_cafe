@@ -8,7 +8,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'board_game_cafe.settings')
 django.setup()
 
-from cafe_website.models import Game
+from cafe_website.models import Game, Author
 
 
 def fetch_game_details(filename):
@@ -55,22 +55,23 @@ def save_games_to_database(game_ids):
             description = game.find("description").text
 
             authors = game.findall("link[@type='boardgamedesigner']")
-            author_names = set()
+            authors_data = []
             for author in authors:
-                author_names.add(author.attrib['value'])
+                author_name = author.attrib['value']
+                author_object, _ =Author.objects.get_or_create(name=author_name)
+                authors_data.append(author_object)
 
-            author = ", ".join(author_names) if author_names else ''
 
             game, created = Game.objects.get_or_create(
                 name=title,
                 defaults={
                     'min_players': int(min_players),
                     'max_players': int(max_players),
-                    'description': description or '',
-                    'author': author
+                    'description': description or ''
                 }
             )
             if created:
+                game.author.set(authors_data)
                 print(f"{title} created.")
             else:
                 print(f"{title} already exists.")
