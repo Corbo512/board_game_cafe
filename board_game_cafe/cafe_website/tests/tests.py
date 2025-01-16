@@ -24,7 +24,7 @@ def test_user_login_view(client, user):
 
 @pytest.mark.django_db
 def test_user_login_redirect_with_next(client, user):
-    login_url = '/accounts/login/?next=/reservation/1/'
+    login_url = '/accounts/login/?next=/reservation/game/1/'
     response = client.post(login_url, {"username": "testuser", "password": "password123"})
     assert response.status_code == 302
     assert response.url == '/reservation/1/'
