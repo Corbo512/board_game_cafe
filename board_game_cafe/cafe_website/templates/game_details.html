@@ -5,11 +5,11 @@
 {% block content %}
 <img src="{{ game.thumbnail }}" class="game-thumbnail">
 <h1>{{ game.name }}</h1>
-<p><strong>Designer(s):
+<p><strong>Designer(s):</strong>
     {% for author in authors %}
         {{ author.name }}{% if not forloop.last %}, {% endif %}
     {% endfor %}
-</strong></p>
+</p>
 <p><strong>Players:</strong> {{ game.min_players }} - {{ game.max_players }}</p>
 <p><strong>Minimum age:</strong> {{ game.min_age }}</p>
 <p><strong>Description:</strong> {{ game.description }}</p>
