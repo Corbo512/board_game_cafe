@@ -16,6 +16,7 @@ class Game(models.Model):
     max_players = models.IntegerField(default=0)
     description = models.TextField(default='', blank=True)
     author = models.ManyToManyField(Author, blank=True)
+    thumbnail = models.URLField(default='', blank=True)
 
     def __str__(self):
         return self.name
