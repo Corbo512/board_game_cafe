@@ -23,12 +23,14 @@
                 <li><a href="{% url 'games_reservation' %}">Reservation</a></li>
             </ul>
             </div>
+            {% if user.is_authenticated %}
                 <div>
                 <form method="post" action="{% url 'logout' %}">
                     {% csrf_token %}
                     <button>Log out</button>
                 </form>
                 </div>
+            {% endif %}
             </div>
         </nav>
     </header>
