@@ -1,3 +1,5 @@
+from django.db.models import Q
+from datetime import timedelta
 from django.contrib.auth.views import LoginView, LogoutView
 from django.shortcuts import render, redirect, get_object_or_404
 from django.urls import reverse_lazy
@@ -52,11 +54,14 @@ class ReservationCreateView(LoginRequiredMixin, CreateView):
         if form.is_valid():
             reservation = form.save(commit=False)
 
-            #optymalnie ustawić maks czas rezerwacji na 30 dni i od start_time odjąć 30
+            if (reservation.end_time - reservation.start_time).days > 30:
+                form.add_error(None, "Reservation cannot be longer than 30 days")
+                return render(request, self.template_name, {'form': form, 'game': reservation.game, 'table': reservation.table})
+
+            max_date = reservation.start_time - timedelta(days=30)
+
             existing_reservations = (Reservation.objects.filter(
-                game=reservation.game).order_by('start_time') |
-            Reservation.objects.filter(
-                table=reservation.table).order_by('start_time'))
+                Q(game=reservation.game) | Q(table=reservation.table), start_time__gte=max_date)).order_by('start_time')
 
             reservation.user = request.user
 
